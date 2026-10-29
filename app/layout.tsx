@@ -5,9 +5,11 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "个人练习室 · 考试练习",
   description: "随时练习、回顾错题，联网同步你的学习进度。",
+  applicationName: "个人练习室",
+  manifest: "/manifest.webmanifest",
   icons: {
-    icon: "/favicon.svg",
-    shortcut: "/favicon.svg",
+    icon: "/icons/app.svg",
+    shortcut: "/icons/app-192.png",
   },
 };
 

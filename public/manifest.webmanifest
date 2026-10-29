@@ -1,0 +1,16 @@
+{
+  "id": "/",
+  "name": "个人练习室 · 刷题与模拟测试",
+  "short_name": "个人练习室",
+  "description": "离线刷题、错题复习与 60 分钟模拟测试",
+  "lang": "zh-CN",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#f7f8f2",
+  "theme_color": "#2f6552",
+  "icons": [
+    { "src": "/icons/app-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/icons/app-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}

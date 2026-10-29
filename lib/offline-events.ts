@@ -33,6 +33,10 @@ export async function saveAnswerEvent(event: StoredAnswerEvent): Promise<void> {
   await putEvents([event]);
 }
 
+export async function saveAnswerEvents(events: readonly StoredAnswerEvent[]): Promise<void> {
+  await putEvents(events);
+}
+
 export async function getLocalAnswerEvents(): Promise<StoredAnswerEvent[]> {
   const db = await openDatabase();
   return new Promise((resolve, reject) => {

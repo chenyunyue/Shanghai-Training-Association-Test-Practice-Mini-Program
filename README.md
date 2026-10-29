@@ -4,9 +4,13 @@
 
 已实现顶部计时、手机题号抽屉、即时反馈、错题复习、作答本地保存与同步。单选和判断题点击后显示结果；多选和填空题确认后显示结果。答错进入错题本，之后答对自动移出。
 
+模拟测试按教育教学知识与能力、职业素养、专业能力三科组卷：每场随机 100 道不重复题，60 分钟，90 分及格。交卷前可修改答案，交卷后统一查看成绩与解析，并将答错及未答题加入错题本。试卷与截止时间保存在本机，刷新或进入后台不会重置计时；保留当前或最近一场测试，不提供跨设备接续同一份未交试卷。
+
+已添加安卓桌面安装所需的 manifest 与 192/512 图标。正式发布后，可使用支持安装的安卓浏览器添加到主屏幕；当前尚未完成安卓真机安装验收。
+
 **当前未完成：**原站七个模块的完整题库迁移、缺失解析补齐、正式发布和安卓真机验收。页面在未导入题库时显示空状态，不内置冒充真实题库的测试题。详见 [核验记录](docs/verification.md) 与 [题库核验记录](docs/data-audit.md)。
 
-本地检查：`node --test lib/wrong-book.test.mjs lib/offline-events.test.mjs`、`npx tsc --noEmit`、`npm run build`。以下保留框架运行与发布说明。
+本地检查：`node --test lib/exam-session.test.mjs lib/wrong-book.test.mjs lib/offline-events.test.mjs`、`npx tsc --noEmit`、`npm run build`。以下保留框架运行与发布说明。
 
 ## Private exam bank access
 

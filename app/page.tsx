@@ -5,6 +5,7 @@ import { BookOpen, Check, CheckCircle2, ChevronLeft, ChevronRight, Clock3, Cloud
 import { downloadQuestionBank, getCachedQuestionBank, type Question, type QuestionBank } from "../lib/question-bank";
 import { getLocalAnswerEvents, saveAnswerEvent, syncAnswerEvents, type StoredAnswerEvent } from "../lib/offline-events";
 import { getWrongQuestionIds } from "../lib/wrong-book";
+import { ExamPanel } from "../components/exam-panel";
 
 const typeNames = { single: "单选题", multiple: "多选题", judge: "判断题", fill: "填空题" };
 
@@ -42,7 +43,7 @@ function QuestionCard({ question, latest, onAnswer }: {
     <div className="question-prompt rich-text" dangerouslySetInnerHTML={{ __html: question.promptHtml }} />
     <div className="answer-options" aria-label="作答选项">
       {isFill ? question.answer.map((_, index) => <label className="fill-answer" key={index}>
-        <span>第 {index + 1} 空</span><input value={selected[index] ?? ""} disabled={!!result || saving} onChange={event => { const next = [...selected]; next[index] = event.target.value; setSelected(next); }} autoComplete="off" />
+        <span>第 {index + 1} 空</span><input value={selected[index] ?? ""} disabled={!!result || saving} onChange={event => { const next = question.answer.map((_, itemIndex) => selected[itemIndex] ?? ""); next[index] = event.target.value; setSelected(next); }} autoComplete="off" />
       </label>) : question.options.map((option, index) => {
         const chosen = selected.includes(option.id);
         const right = !!result && question.answer.includes(option.id);
@@ -68,6 +69,7 @@ function QuestionCard({ question, latest, onAnswer }: {
 }
 
 export default function Home() {
+  const [screen, setScreen] = useState<"practice" | "exam">("practice");
   const [bank, setBank] = useState<QuestionBank | null>(null);
   const [events, setEvents] = useState<StoredAnswerEvent[]>([]);
   const [moduleId, setModuleId] = useState("");
@@ -94,6 +96,11 @@ export default function Home() {
     try { setBank(await downloadQuestionBank()); setBankError(""); }
     catch (error) { setBankError(error instanceof Error ? error.message : "题库下载失败。"); }
   }, []);
+  const onExamSubmitted = useCallback(async () => {
+    setEvents(await getLocalAnswerEvents());
+    setSyncState("pending"); sync();
+  }, [sync]);
+  const onExamRestore = useCallback(() => setScreen("exam"), []);
 
   useEffect(() => {
     setOnline(navigator.onLine);
@@ -125,10 +132,10 @@ export default function Home() {
   const totalQuestions = bank?.modules.reduce((sum, module) => sum + module.questions.length, 0) ?? 0;
 
   useEffect(() => {
-    if (!question) return;
+    if (!question || screen !== "practice") return;
     const timer = window.setInterval(() => setSeconds(value => value + 1), 1000);
     return () => window.clearInterval(timer);
-  }, [!!question]);
+  }, [!!question, screen]);
 
   function chooseModule(id: string) { setModuleId(id); setQuestionId(""); setSeconds(0); drawer.current?.close(); }
   function chooseQuestion(id: string) { setQuestionId(id); drawer.current?.close(); window.scrollTo({ top: 0, behavior: "smooth" }); }
@@ -153,7 +160,10 @@ export default function Home() {
   }
 
   return <div className="app-shell">
-    <header className="topbar"><a className="brand" href="/" aria-label="个人练习室首页"><span className="brand-icon"><BookOpen size={22} /></span><span>个人练习室<small>专注每一次进步</small></span></a><div className="session-time"><Clock3 size={17} /><span>{clock(seconds)}</span></div><button className={`sync-status ${!online ? "offline" : syncState}`} onClick={sync} disabled={!online || syncState === "syncing"} title={!online ? "本地保存，联网后自动同步" : "点击同步练习记录"}>{!online ? <WifiOff size={16} /> : syncState === "syncing" ? <RefreshCw size={16} className="spinning" /> : <Cloud size={16} />}<span>{!online ? "离线练习" : syncState === "syncing" ? "同步中" : syncState === "synced" ? "已同步" : "待同步"}</span></button></header>
+    <header className={`topbar ${screen === "exam" ? "exam-header" : ""}`}><a className="brand" href="/" aria-label="个人练习室首页"><span className="brand-icon"><BookOpen size={22} /></span><span>个人练习室<small>专注每一次进步</small></span></a>{screen === "practice" && <div className="session-time"><Clock3 size={17} /><span>{clock(seconds)}</span></div>}<button className={`sync-status ${!online ? "offline" : syncState}`} onClick={sync} disabled={!online || syncState === "syncing"} title={!online ? "本地保存，联网后自动同步" : "点击同步练习记录"}>{!online ? <WifiOff size={16} /> : syncState === "syncing" ? <RefreshCw size={16} className="spinning" /> : <Cloud size={16} />}<span>{!online ? "离线练习" : syncState === "syncing" ? "同步中" : syncState === "synced" ? "已同步" : "待同步"}</span></button></header>
+    <nav className="app-modes" aria-label="应用功能"><button className={screen === "practice" ? "active" : ""} aria-pressed={screen === "practice"} onClick={() => setScreen("practice")}>练习与错题</button><button className={screen === "exam" ? "active" : ""} aria-pressed={screen === "exam"} onClick={() => setScreen("exam")}>模拟测试</button></nav>
+    <ExamPanel bank={bank} active={screen === "exam"} onSubmitted={onExamSubmitted} onRestore={onExamRestore} onPractice={() => setScreen("practice")} />
+    <div hidden={screen !== "practice"}>
     <div className="workspace">
       <aside className="module-sidebar"><p className="eyebrow">我的题库</p><h2>一步一步，学扎实。</h2><p className="sidebar-intro">从一次练习开始，<br />把错题变成掌握的知识。</p><nav aria-label="练习模块">{bank?.modules.map(module => <button key={module.id} onClick={() => chooseModule(module.id)} className={activeModule?.id === module.id ? "active" : ""}><span>{module.name}</span><small>{module.questions.length}</small></button>)}</nav><div className="sidebar-note"><CheckCircle2 size={16} /><span>{totalQuestions ? `已缓存 ${totalQuestions} 道题` : "等待导入题库"}</span></div></aside>
       <main className="practice-main">
@@ -168,5 +178,6 @@ export default function Home() {
       <aside className="question-sidebar"><div className="sidebar-heading"><h2>题目列表</h2><span>{listedQuestions.length} 题</span></div>{numberGrid()}</aside>
     </div>
     <dialog ref={drawer} className="question-drawer"><div className="drawer-heading"><h2>题目列表</h2><button className="icon-button" aria-label="关闭题号列表" onClick={() => drawer.current?.close()}><X size={22} /></button></div><p className="muted">{activeModule?.name} · {listedQuestions.length} 题</p>{numberGrid()}</dialog>
+    </div>
   </div>;
 }
