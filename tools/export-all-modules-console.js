@@ -26,23 +26,42 @@
   if (typeof client !== "function") throw new Error("原站读取客户端不匹配，停止导出。");
 
   async function getJson(path, label) {
-    try {
-      const result = await client(path).get().json();
-      const status = result.statusCode?.value;
-      if (result.error?.value || !(status >= 200 && status < 300)) throw new Error();
-      return result.data.value;
-    } catch {
-      // Never print the client response or request options; they are not export data.
-      throw new Error(`${label}读取失败；未生成题库文件，请确认登录和该练习会话仍有效。`);
+    for (let attempt = 1; attempt <= 3; attempt++) {
+      let result;
+      try {
+        result = await client(path).get().json();
+      } catch {
+        // Never retain or print the raw client error or request options.
+      }
+      const status = result?.statusCode?.value;
+      if (status >= 400 && status < 500) {
+        throw new Error(`${label}读取被拒绝（HTTP ${status}）；不重试，请确认登录和练习会话仍有效。`);
+      }
+      // The original client can clear its error after a 2xx body-read failure.
+      if (!result?.error?.value && status >= 200 && status < 300 && result?.data?.value != null) {
+        return result.data.value;
+      }
+      if (attempt < 3) {
+        console.log(`${label}网络读取失败或响应为空，2 秒后进行第 ${attempt + 1} 次尝试。`);
+        await new Promise(resolve => setTimeout(resolve, 2000));
+      }
     }
+    throw new Error(`${label}网络读取失败或响应为空（已尝试 3 次）；未生成题库文件，保留本页后重跑可继续读取。`);
   }
 
+  // Page memory only: store successful allowlisted snapshots, never raw responses.
+  const verifiedModules = globalThis.__shtrainingExamExportVerifiedModulesV1 ??= Object.create(null);
   const isId = value => (typeof value === "string" && value.trim() !== "") ||
     (typeof value === "number" && Number.isFinite(value));
   const isScalar = value => value == null || typeof value === "string" ||
     typeof value === "boolean" || (typeof value === "number" && Number.isFinite(value));
   const modules = [];
   for (const [routeId, name, expectedCount] of inventory) {
+    if (verifiedModules[routeId]) {
+      modules.push(verifiedModules[routeId]);
+      console.log(`已复用本页核验缓存 ${name}：${expectedCount} 题`);
+      continue;
+    }
     const path = `api/exam/test-user-train/open-train/${routeId}`;
     const metadata = await getJson(path, `${name}元信息`);
     const classId = metadata?.testPaper?.classId;
@@ -89,7 +108,9 @@
         questionOptions,
       };
     });
-    modules.push({ routeId, name, classId, questions });
+    const verified = { routeId, name, classId, questions };
+    verifiedModules[routeId] = verified;
+    modules.push(verified);
     console.log(`已核对 ${name}：${questions.length} 题`);
   }
   const capturedAt = new Date().toISOString();

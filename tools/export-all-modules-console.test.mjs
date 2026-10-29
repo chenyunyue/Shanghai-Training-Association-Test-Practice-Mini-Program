@@ -35,12 +35,14 @@ function harness(change = {}) {
       })));
   }
   change.responses?.(responses);
-  const calls = [], imports = [], blobs = [], downloads = [], logs = [];
+  const calls = [], imports = [], blobs = [], downloads = [], logs = [], delays = [];
   const client = path => ({
     get() {
       calls.push({ method: "GET", path });
       return { json: async () => {
         if (path === change.throwPath) throw new Error("raw response must not be logged");
+        const supplied = change.reply?.(path, calls.filter(call => call.path === path).length);
+        if (supplied !== undefined) return supplied;
         return {
           statusCode: { value: path === change.failPath ? 401 : 200 },
           error: { value: path === change.failPath ? "failed" : null },
@@ -65,7 +67,7 @@ function harness(change = {}) {
     location: { origin: change.origin ?? origin, pathname: change.pathname ?? "/exam/app/train/63203" },
     document, Blob, URL: { createObjectURL: blob => { blobs.push(blob); return "blob:test"; }, revokeObjectURL() {} },
     console: { log: (...args) => logs.push(args) },
-    setTimeout: callback => callback(),
+    setTimeout: (callback, delay) => { delays.push(delay); callback(); },
     localStorage: new Proxy({}, { get() { throw new Error("storage access is forbidden"); } }),
     sessionStorage: new Proxy({}, { get() { throw new Error("storage access is forbidden"); } }),
   });
@@ -79,7 +81,10 @@ function harness(change = {}) {
       return module;
     },
   });
-  return { run: () => script.runInContext(context), calls, imports, blobs, downloads, logs };
+  return {
+    run: () => script.runInContext(context), calls, imports, blobs, downloads, logs, delays,
+    cache: () => context.__shtrainingExamExportVerifiedModulesV1,
+  };
 }
 
 test("exports seven verified snapshots with GET only and strict field allowlists", async () => {
@@ -116,6 +121,73 @@ for (const change of [
     assert.equal(h.downloads.length, 0);
   });
 }
+
+const safetyQuestionsPath = "api/exam/test-user-train/open-train/63188/questions";
+const emptySuccess = () => ({ statusCode: { value: 200 }, error: { value: null }, data: { value: null } });
+
+test("a 200 response with cleared error and missing body reports network failure after three attempts", async () => {
+  const h = harness({ reply: path => path === safetyQuestionsPath ? emptySuccess() : undefined });
+  await assert.rejects(h.run(), /安全素养题目.*网络.*3 次/);
+  assert.equal(h.calls.filter(call => call.path === safetyQuestionsPath).length, 3);
+  assert.deepEqual(h.delays, [2000, 2000]);
+  assert.equal(h.downloads.length, 0);
+});
+
+test("retries missing 200 bodies twice then exports the complete bank", async () => {
+  const h = harness({ reply: (path, attempt) => path === safetyQuestionsPath && attempt < 3 ? emptySuccess() : undefined });
+  await h.run();
+  assert.equal(h.calls.filter(call => call.path === safetyQuestionsPath).length, 3);
+  assert.deepEqual(h.delays.filter(delay => delay === 2000), [2000, 2000]);
+  assert.equal(h.downloads.length, 1);
+});
+
+test("retries a thrown network failure but never logs the raw error", async () => {
+  const h = harness({ reply: (path, attempt) => {
+    if (path === safetyQuestionsPath && attempt < 3) throw new Error("raw response must not be logged");
+  } });
+  await h.run();
+  assert.equal(h.calls.filter(call => call.path === safetyQuestionsPath).length, 3);
+  assert.equal(h.downloads.length, 1);
+  assert.ok(!JSON.stringify(h.logs).includes("raw response"));
+});
+
+test("known 4xx failures stop immediately without retrying or downloading", async () => {
+  const h = harness({ failPath: safetyQuestionsPath });
+  await assert.rejects(h.run(), /HTTP 401/);
+  assert.equal(h.calls.filter(call => call.path === safetyQuestionsPath).length, 1);
+  assert.deepEqual(h.delays, []);
+  assert.equal(h.downloads.length, 0);
+});
+
+test("a real nonempty array with the wrong count is a data error and is not retried", async () => {
+  const h = harness({ responses: responses => { responses.get(safetyQuestionsPath).pop(); } });
+  await assert.rejects(h.run(), /题数不是已核验的 140 题/);
+  assert.equal(h.calls.filter(call => call.path === safetyQuestionsPath).length, 1);
+  assert.deepEqual(h.delays, []);
+  assert.equal(h.downloads.length, 0);
+});
+
+test("a rerun reuses only already verified allowlisted modules from this page", async () => {
+  const changes = { throwPath: safetyQuestionsPath };
+  const h = harness(changes);
+  await assert.rejects(h.run(), /网络.*3 次/);
+  assert.equal(h.downloads.length, 0);
+  assert.deepEqual(Object.keys(h.cache()), ["63186", "63187", "63203"]);
+  const cached = JSON.stringify(h.cache());
+  assert.ok(!cached.includes("must not export"));
+  assert.ok(!cached.includes("accountData"));
+  assert.ok(!cached.includes('"token"'));
+  const firstRunCalls = h.calls.length;
+  changes.throwPath = null;
+  await h.run();
+  const secondRunCalls = h.calls.slice(firstRunCalls);
+  assert.equal(secondRunCalls.length, 12);
+  assert.ok(secondRunCalls.every(call => !/63203|63186|63187/.test(call.path)));
+  assert.equal(h.downloads.length, 1);
+  const data = JSON.parse(await h.blobs[0].text());
+  assert.equal(data.modules.length, 7);
+  assert.equal(data.modules.reduce((sum, module) => sum + module.questions.length, 0), 1224);
+});
 
 for (const [name, change] of [
   ["request rejection", { failPath: "api/exam/test-user-train/open-train/63192/questions" }],
