@@ -6,7 +6,6 @@ export const metadata: Metadata = {
   title: "个人练习室 · 考试练习",
   description: "随时练习、回顾错题，联网同步你的学习进度。",
   applicationName: "个人练习室",
-  manifest: "/manifest.webmanifest",
   icons: {
     icon: "/icons/app.svg",
     shortcut: "/icons/app-192.png",
@@ -20,6 +19,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="zh-CN">
+      <head>
+        <link rel="manifest" href="/manifest.webmanifest" crossOrigin="use-credentials" />
+      </head>
       <body className="antialiased"><ServiceWorkerRegistration />{children}</body>
     </html>
   );
