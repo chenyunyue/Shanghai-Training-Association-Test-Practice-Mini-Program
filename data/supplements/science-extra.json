@@ -1,0 +1,26 @@
+[
+  {
+    "questionId": "10152",
+    "explanationHtml": "<p>选C。葡萄糖等糖类是细胞重要的能源物质，细胞呼吸可利用葡萄糖释放的能量合成ATP。细胞的遗传信息主要保存在DNA中，RNA参与信息传递、蛋白质合成及调控；不要把D未入选理解为RNA完全不承载信息。</p>",
+    "sources": [
+      {"title":"莱斯大学OpenStax《Biology 2e》：糖类","url":"https://openstax.org/books/biology-2e/pages/3-2-carbohydrates"},
+      {"title":"莱斯大学OpenStax《Biology 2e》：核酸","url":"https://openstax.org/books/biology-2e/pages/3-5-nucleic-acids"}
+    ],
+    "verifiedAt":"2026-10-29"
+  },
+  {
+    "questionId":"10179",
+    "explanationHtml":"<p>选A。马可·波罗来自威尼斯，其游记在作家协助下成书，记述了元代中国及东方见闻。哥伦比亚大学的史料导读也提醒：游记的部分经历和细节存在学术争论，不能把题干理解为所有记载均已证实。</p>",
+    "sources":[{"title":"哥伦比亚大学：马可·波罗游记史料导读","url":"https://www.columbia.edu/itc/eacp/japanworks/ps/china/polo_kaans_feasts.pdf"}],
+    "verifiedAt":"2026-10-29"
+  },
+  {
+    "questionId":"10189",
+    "explanationHtml":"<p>选C。这里指1602年成立的荷兰东印度公司（VOC），通过认购股份筹集资金，荷兰国家档案馆保存有当年的认购登记册。注意区分荷兰与英国的东印度公司。</p>",
+    "sources":[
+      {"title":"荷兰国家档案馆：VOC股份认购档案（1602）","url":"https://www.nationaalarchief.nl/beleven/onderwijs/bronnenbox/aandelen-voc-1602"},
+      {"title":"西澳大利亚博物馆：荷兰东印度公司","url":"https://museum.wa.gov.au/explore/dirk-hartog/voc/index.html"}
+    ],
+    "verifiedAt":"2026-10-29"
+  }
+]

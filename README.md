@@ -8,7 +8,11 @@
 
 已添加安卓桌面安装所需的 manifest 与 192/512 图标。正式发布后，可使用支持安装的安卓浏览器添加到主屏幕；当前尚未完成安卓真机安装验收。
 
-**当前未完成：**原站七个模块的完整题库迁移、缺失解析补齐、正式发布和安卓真机验收。页面在未导入题库时显示空状态，不内置冒充真实题库的测试题。详见 [核验记录](docs/verification.md) 与 [题库核验记录](docs/data-audit.md)。
+已取得并导入原站七模块共 1224 道题，保留原站题目 ID、选项和判分答案。原有解析 738 条，本轮补充 316 条有来源解析，仍有 170 道科学素养题显示“待核实”。详细覆盖情况见 [解析核验记录](docs/explanation-review.md)。原站答案存在疑点时在解析中说明，不静默修改判分。
+
+本地已验证真实题库、错题流转、100 题模拟测试、服务断开后继续练习及恢复同步。尚未完成真实安卓安装与双设备验收。详见 [核验记录](docs/verification.md) 与 [题库核验记录](docs/data-audit.md)。
+
+题库归一化：`node tools/normalize-question-bank.mjs --supplements data/supplements`。原始快照和导入文件存放于被 Git 忽略的 `data/raw/`；解析补丁独立存放于 `data/supplements/`，原始题库不打包为公开静态资源。
 
 本地检查：`node --test lib/exam-session.test.mjs lib/wrong-book.test.mjs lib/offline-events.test.mjs`、`npx tsc --noEmit`、`npm run build`。以下保留框架运行与发布说明。
 

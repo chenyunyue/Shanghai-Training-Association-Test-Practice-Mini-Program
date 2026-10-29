@@ -1,0 +1,922 @@
+[
+  {
+    "questionId": "10291",
+    "explanationHtml": "<p>第二次工业革命通常涵盖19世纪后期至20世纪初的电力、内燃机和通信技术发展，电话、汽车及1903年莱特兄弟的动力飞机与此相符。蒸汽机车、早期汽船则属于更早的第一次工业革命技术阶段。</p>",
+    "sources": [
+      {
+        "title": "OpenStax：第二次工业革命",
+        "url": "https://openstax.org/books/world-history-volume-2/pages/9-1-the-second-industrial-revolution"
+      },
+      {
+        "title": "美国国家航空航天博物馆：1903年莱特飞行者",
+        "url": "https://airandspace.si.edu/collection-objects/1903-wright-flyer/nasm_A19610048000"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "10292",
+    "explanationHtml": "<p>福特在1913年把移动装配线用于汽车制造，将工序分配给固定工位，大幅提高T型车产量。因此选福特。</p>",
+    "sources": [
+      {
+        "title": "福特公司：高地公园工厂与移动装配线",
+        "url": "https://corporate.ford.com/articles/history/highland-park.html"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "10294",
+    "explanationHtml": "<p>达尔文在《物种起源》中系统阐述以自然选择解释生物演化的理论；华莱士也独立提出自然选择思想。题目应选达尔文这一项，但“第一次把生物学建立在完全科学的基础上”属于教材评价，不表示此前没有科学的生物学研究。</p>",
+    "sources": [
+      {
+        "title": "英国自然历史博物馆：自然选择是什么",
+        "url": "https://www.nhm.ac.uk/discover/what-is-natural-selection.html?sfns=mo"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "10296",
+    "explanationHtml": "<p>材料提示开发自然的代价，重点是保护生态环境、审慎评估科技风险，而非否认科技进步。</p>",
+    "sources": [
+      {
+        "title": "中办国办《关于加强科技伦理治理的意见》",
+        "url": "https://www.mee.gov.cn/zcwj/zyygwj/202203/t20220321_971981.shtml"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "10297",
+    "explanationHtml": "<p>哈维1628年发表血液循环研究，早于18世纪后期开始的工业革命。法拉第的电磁感应发现则在1831年。</p>",
+    "sources": [
+      {
+        "title": "英国皇家内科医师学会：哈维的血液循环研究",
+        "url": "https://history.rcp.ac.uk/exhibitions/past-exhibitions/ceaseless-motion-experimentations-circulation"
+      },
+      {
+        "title": "英国皇家研究院：研究历史",
+        "url": "https://www.rigb.org/explore-science/explore/collection/history-research-ri"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "10298",
+    "explanationHtml": "<p>电磁感应发现于1831年，早于题目限定的19世纪晚期和20世纪早期，因此应把它从这一时期的新发现中排除。</p>",
+    "sources": [
+      {
+        "title": "英国皇家研究院：研究历史",
+        "url": "https://www.rigb.org/explore-science/explore/collection/history-research-ri"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "10299",
+    "explanationHtml": "<p>电磁感应为发电机、变压器等技术奠定基础，电磁学推动了电力的广泛应用，因此本题选电磁学说的发展。</p>",
+    "sources": [
+      {
+        "title": "英国皇家研究院：研究历史",
+        "url": "https://www.rigb.org/explore-science/explore/collection/history-research-ri"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "10300",
+    "explanationHtml": "<p>原站选“居里夫妇发现镭”。需注意：周期表预测得到直接验证的经典事例是镓、钪和锗的发现及性质与预测相符；不能把发现镭说成唯一或最典型的验证。</p>",
+    "sources": [
+      {
+        "title": "英国皇家化学会：元素周期表的发展",
+        "url": "https://periodic-table.rsc.org/about"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "10301",
+    "explanationHtml": "<p>科学哲学既研究科学活动怎样展开，也研究科学理论的结构、解释、证据与检验等问题。理论不是实验数据的简单堆积，因此对理论本身的分析也是科学哲学的重要内容。</p>",
+    "sources": [
+      {
+        "title": "斯坦福哲学百科：Scientific Method",
+        "url": "https://plato.stanford.edu/entries/scientific-method/"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "10303",
+    "explanationHtml": "<p>萨顿长期推动哈佛大学科学史的教学和专业建设，是美国科学史学科早期发展的关键人物，因此选萨顿。</p>",
+    "sources": [
+      {
+        "title": "土耳其历史学会：George Sarton and the History of Science",
+        "url": "https://www.belleten.gov.tr/tam-metin/1798/eng"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "10304",
+    "explanationHtml": "<p><strong>原站答案存在冲突：</strong>萨顿确实倡导把科学与人文学科联系起来的“新人文主义”，并著有相关专著，不能把“倡导人文主义”判为错误。他是近现代科学史家，研究古代和中世纪不等于本人是那个时代的文学家。</p>",
+    "sources": [
+      {
+        "title": "George Sarton：《The History of Science and the New Humanism》",
+        "url": "https://www.routledge.com/The-History-of-Science-and-the-New-Humanism/Novak/p/book/9781351303767"
+      },
+      {
+        "title": "土耳其历史学会：George Sarton and the History of Science",
+        "url": "https://www.belleten.gov.tr/tam-metin/1798/eng"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "10305",
+    "explanationHtml": "<p>科学史展示知识、方法与制度如何形成和改变，有助于反思科学的性质，因此空格选历史。</p>",
+    "sources": [
+      {
+        "title": "George Sarton：《The History of Science and the New Humanism》",
+        "url": "https://www.routledge.com/The-History-of-Science-and-the-New-Humanism/Novak/p/book/9781351303767"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "10306",
+    "explanationHtml": "<p>科学史学会的官方获奖名单从1955年开始，首位获奖者就是George Sarton（乔治·萨顿）。</p>",
+    "sources": [
+      {
+        "title": "History of Science Society：Sarton Medal",
+        "url": "https://hssonline.org/page/sartonmedal"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "10309",
+    "explanationHtml": "<p>玻璃既用于装饰艺术，也因透光性和可加工性成为光学与实验仪器的重要材料，例如望远镜、显微镜的光学元件。题目强调的是同一种材料从生活工艺扩展到科学研究的用途。</p>",
+    "sources": [
+      {
+        "title": "康宁玻璃博物馆：玻璃的艺术、历史与科学",
+        "url": "https://info.cmog.org/"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "10311",
+    "explanationHtml": "<p>今天常用的十进位数字体系起源于印度，经阿拉伯—伊斯兰世界传播和发展，再传入欧洲。因此称“阿拉伯数字”体现了向欧洲传播的路径，并不表示其最初完全发明于阿拉伯地区。</p>",
+    "sources": [
+      {
+        "title": "圣安德鲁斯大学MacTutor：阿拉伯数字系统",
+        "url": "https://mathshistory.st-andrews.ac.uk/HistTopics/Arabic_numerals/"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "10314",
+    "explanationHtml": "<p>欧几里得是古希腊数学家，其《几何原本》把几何知识组织为定义、公设和命题证明的体系，对后世数学影响深远，因此应归入数学家。</p>",
+    "sources": [
+      {
+        "title": "圣安德鲁斯大学MacTutor：欧几里得",
+        "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Euclid/"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "10315",
+    "explanationHtml": "<p>毕达哥拉斯学派重视数和数量关系，认为宇宙的秩序、和谐可用数来理解，例如音乐和声音程中的整数比。题中以“数”概括该学派的本原论；这不同于把水、火等具体物质作为本原。</p>",
+    "sources": [
+      {
+        "title": "斯坦福哲学百科：毕达哥拉斯",
+        "url": "https://plato.stanford.edu/entries/pythagoras/"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "10316",
+    "explanationHtml": "<p>恩培多克勒以土、水、气、火为四种根本成分，用它们的结合和分离解释变化，因此是“四根说”。</p>",
+    "sources": [
+      {
+        "title": "斯坦福哲学百科：前苏格拉底哲学",
+        "url": "https://plato.stanford.edu/entries/presocratics/"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "10319",
+    "explanationHtml": "<p>透光镜并非让光穿透铜体，而是镜面微小曲率差异改变反射光的分布，形成与镜背纹饰相应的明暗影像。<strong>术语提示：</strong>原题选择“散射率”，更准确的物理表述是曲率造成反射光束会聚、发散差异，不能理解为材料透光率改变。</p>",
+    "sources": [
+      {
+        "title": "中国数字科技馆：透光镜",
+        "url": "https://www.cdstm.cn/museum/zphc/hxzg2017x/art/2017/art_856a5d636e67497988224493e7a49601.html"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "10322",
+    "explanationHtml": "<p>阿那克西曼德把本原称为apeiron，通常译作“无定”或“无限者”，不是某种特定的水或气。</p>",
+    "sources": [
+      {
+        "title": "斯坦福哲学百科：前苏格拉底哲学",
+        "url": "https://plato.stanford.edu/entries/presocratics/"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "10323",
+    "explanationHtml": "<p>二分、阿基琉斯追龟和飞箭是芝诺讨论运动的著名悖论。“等比较级”不是这些运动悖论的名称。</p>",
+    "sources": [
+      {
+        "title": "斯坦福哲学百科：芝诺",
+        "url": "https://plato.stanford.edu/entries/zeno-elea/"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "10324",
+    "explanationHtml": "<p>原站选原子论。留基伯和德谟克利特以原子及虚空解释自然变化，是古希腊自然思想的重要成果；“顶峰”属于概括性评价，并非唯一公认的史学排名。</p>",
+    "sources": [
+      {
+        "title": "斯坦福哲学百科：古代原子论",
+        "url": "https://plato.stanford.edu/entries/atomism-ancient/"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "10328",
+    "explanationHtml": "<p>题目所指的现代大学制度传统，可以追溯到中世纪欧洲的大学，如博洛尼亚、巴黎、牛津。博洛尼亚大学传统建校年份为 1088 年。此处讲的是特定大学制度的源流，不等于其他文明此前没有高等教育。</p>",
+    "sources": [
+      {
+        "title": "博洛尼亚大学：学校历史",
+        "url": "https://www.unibo.it/en/university/who-we-are/our-history/our-history"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "10329",
+    "explanationHtml": "<p>托马斯·阿奎那是天主教经院哲学和神学的重要代表。教皇利奥十三世在 1879 年通谕中倡导恢复和推广其哲学；因而本题对应天主教。题干“官方思想”是简化说法，不宜把天主教全部思想归为单一理论。</p>",
+    "sources": [
+      {
+        "title": "梵蒂冈：1879年《Aeterni Patris》通谕",
+        "url": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_04081879_aeterni-patris.html"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "10332",
+    "explanationHtml": "<p>智慧农业、智能交通、医疗健康是按服务行业划分的物联网应用。智能手机是终端设备类别，不是与这三者同层级的行业名称；它仍可充当物联网的控制或显示终端，不能理解为手机与物联网毫无关系。</p>",
+    "sources": [
+      {
+        "title": "NIST：智慧城市与物联网行业应用",
+        "url": "https://www.nist.gov/programs-projects/cyber-physical-systemsinternet-things-smart-cities"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "10333",
+    "explanationHtml": "<p><strong>题干存在历史口径问题：</strong>原站选ENIAC；曼彻斯特大学把1948年Baby认定为首台在电子存储器中实际运行存储程序的计算机。若采用这一标准，给出的四个选项缺少正确机器，不能把原站答案当作无条件成立的结论。</p>",
+    "sources": [
+      {
+        "title": "曼彻斯特大学：计算机学科历史",
+        "url": "https://www.cs.manchester.ac.uk/about/history-and-heritage/"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "10335",
+    "explanationHtml": "<p>散射实验中多数α粒子几乎直穿或只偏转小角度，极少数发生大角散射。这说明原子大部分空间较空，正电荷和大部分质量集中在很小的核中。</p>",
+    "sources": [
+      {
+        "title": "美国物理联合会：卢瑟福与原子核发现",
+        "url": "https://history.aip.org/exhibits/rutherford/sections/alpha-particles-atom.html"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "10336",
+    "explanationHtml": "<p>2014年诺贝尔物理学奖表彰高效蓝色发光二极管的发明；它使明亮、节能的白光照明成为可能。</p>",
+    "sources": [
+      {
+        "title": "诺贝尔奖：2014年物理学奖",
+        "url": "https://www.nobelprize.org/prizes/physics/2014/summary/"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "10337",
+    "explanationHtml": "<p>卫星定位利用信号传播时间计算距离，精确计时至关重要。因此这里的“钟表”应理解为高精度时钟，尤其是卫星原子钟；不能推广为所有导航方式都只靠钟表。</p>",
+    "sources": [
+      {
+        "title": "NIST：GPS如何测量位置",
+        "url": "https://www.nist.gov/how-do-you-measure-it/how-do-you-measure-your-location-using-gps"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "10338",
+    "explanationHtml": "<p>F-22是具有低可探测设计的空优战斗机，符合“隐身性能的歼击机”。判断时要同时满足隐身与战斗机这两个条件。</p>",
+    "sources": [
+      {
+        "title": "美国空军国家博物馆：F-22A",
+        "url": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196040/lockheed-martin-f-22a-raptor/"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "10339",
+    "explanationHtml": "<p>马赫数越大，可压缩性效应越显著：同等相对速度变化对应更明显的密度变化。因此在本题通常的比较条件下选越大。</p>",
+    "sources": [
+      {
+        "title": "NASA：马赫数与可压缩流",
+        "url": "https://www.grc.nasa.gov/www/BGH/machrole.html"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "10340",
+    "explanationHtml": "<p>二十四节气按太阳黄经划分，每15度一个节气，反映太阳周年视运动，属于传统阴阳合历中的阳历部分。</p>",
+    "sources": [
+      {
+        "title": "中国科学院：什么是二十四节气",
+        "url": "https://igsnrr.cas.cn/cbkx/kpyd/zybk/qhzy/202009/t20200910_5692918.html"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "10341",
+    "explanationHtml": "<p><strong>原站答案与题面计算不符：</strong>赤道周长约 40,075 千米，即约 8 万市里。随地球自转的纬线周长约为赤道周长乘纬度的余弦；日行约 4 万里需 cosφ≈1/2，即纬度约 60°，题中应对应“北纬60度地区”，不是原站所选“赤道上”。原答案保留供对照。</p>",
+    "sources": [
+      {
+        "title": "NASA：地球自转与赤道周长",
+        "url": "https://imagine.gsfc.nasa.gov/ask_astro/earth.html"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "10343",
+    "explanationHtml": "<p>水是活细胞中含量最多的化合物，通常约占细胞质量的 70%；蛋白质虽是细胞干重的重要成分，但不能据此说它在正常含水的肝细胞中质量最多。</p>",
+    "sources": [
+      {
+        "title": "《细胞分子生物学》：细胞的化学组成",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK26883/"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "11134",
+    "explanationHtml": "<p>恒星表面颜色与温度相关：蓝白色较热，红橙色较冷。在所列颜色中，发蓝光的恒星表面温度最高。</p>",
+    "sources": [
+      {
+        "title": "加拿大航天局：恒星资料",
+        "url": "https://www.asc-csa.gc.ca/eng/astronomy/fact-sheets/star.asp"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "11136",
+    "explanationHtml": "<p>铜镜背面的凸起文字和纹饰，使对应位置的局部厚度不同。冷却凝固和研磨中的应力、形变可使镜面产生与这些纹饰对应的微小起伏，这是透光镜显示背面图案的重要原因。</p>",
+    "sources": [
+      {
+        "title": "上海博物馆：“见日之光”镜",
+        "url": "https://www.shanghaimuseum.net/mu/frontend/pg/article/id/CI00000342"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "11138",
+    "explanationHtml": "<p>米利都思想家尝试用自然本身的因素解释世界，逐步从神话叙述转向理性论证。因此不选“试图用希腊神话解释世界”；“朴素唯物主义”是后来的概括用语。</p>",
+    "sources": [
+      {
+        "title": "斯坦福哲学百科：前苏格拉底哲学",
+        "url": "https://plato.stanford.edu/entries/presocratics/"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "11142",
+    "explanationHtml": "<p>高性能计算机使研究者能够在大数据集上训练更大的神经网络，硬件进步与计算能力提升是人工智能快速发展的重要支撑。它们不是全部原因，算法、数据和应用需求同样重要。</p>",
+    "sources": [
+      {
+        "title": "Ranzato、Hinton、LeCun：Deep Learning导论",
+        "url": "https://research.google/pubs/guest-editorial-deep-learning/"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "11144",
+    "explanationHtml": "<p><strong>原题需复核：</strong>“银/Mercury”中英文不一致，Mercury 是汞（Hg），银是 Silver（Ag）。此外，皇家化学会将自然界中的硅主要表述为氧化物和硅酸盐；不能把硅元素含量丰富直接当作硅单质常见的证据。原题未限定“单元素物质”的含义及存在环境，不宜机械记忆这组选项。</p>",
+    "sources": [
+      {
+        "title": "英国皇家化学会：硅的自然存在形态",
+        "url": "https://periodic-table.rsc.org/element/14/silicon"
+      },
+      {
+        "title": "英国皇家化学会：Mercury（汞）",
+        "url": "https://periodic-table.rsc.org/element/80/mercury"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "11146",
+    "explanationHtml": "<p>病毒不具有细胞结构，不能仅靠无细胞培养基独立增殖；埃博拉病毒的遗传物质是 RNA。复制时病毒自身基因组提供遗传信息，宿主提供相应物质和细胞机制。细胞才是通常教材所说的基本生命系统，因此仅“无细胞器”的描述正确，其余所列说法不正确。</p>",
+    "sources": [
+      {
+        "title": "OpenStax：病毒的基本特征",
+        "url": "https://openstax.org/books/microbiology/pages/6-1-viruses"
+      },
+      {
+        "title": "CDC：埃博拉病毒RNA与病毒检测",
+        "url": "https://www.cdc.gov/ebola/hcp/clinical-guidance/management-of-survivors.html"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "11147",
+    "explanationHtml": "<p>从地球观察，水星、金星轨道在地球轨道以内，有机会位于地球与太阳之间而发生凌日；近地轨道的国际空间站也能短暂掠过太阳视面。火星、木星轨道在地球外侧，不会发生地球视角下的行星凌日。</p>",
+    "sources": [
+      {
+        "title": "NASA：Transit Math",
+        "url": "https://solarsystem.nasa.gov/system/downloadable_items/3515_Transit_Math.pdf"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "11148",
+    "explanationHtml": "<p>原站日期按北京时间理解：NASA以世界时列出4月20日、5月5日、10月14日、10月28日的食象，后两次换算北京时间涉及10月15日和10月29日。选项中的5月8日和8月9日不对应这些食象。具体能否看到还取决于地点。</p>",
+    "sources": [
+      {
+        "title": "NASA：2023年日月食列表",
+        "url": "https://eclipse.gsfc.nasa.gov/OH/OH2023.html"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "11149",
+    "explanationHtml": "<p>宇宙膨胀、轻元素丰度和宇宙微波背景是大爆炸宇宙学的重要观测依据。暴胀是解释极早期演化的理论假说，本身不是一条独立观测事实；日心说讨论太阳系结构，也不是大爆炸的证据。</p>",
+    "sources": [
+      {
+        "title": "NASA：COBE宇宙学发现",
+        "url": "https://science.nasa.gov/mission/cobe/science/"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "11150",
+    "explanationHtml": "<p><strong>原站漏选提示：</strong>固定翼飞机主要由机翼产生升力，螺旋桨通常提供推力，所以 A 也不正确。飞机与滑翔机主要区别是动力条件；自转旋翼机在飞行中靠气流驱动旋翼。陆基、空基、潜射按发射平台区分，不是弹道特征分类，因此原站所列 B、C、E 也不正确。</p>",
+    "sources": [
+      {
+        "title": "NASA：飞机飞行中的四种力",
+        "url": "https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/four-forces-on-an-airplane/"
+      },
+      {
+        "title": "英国民航局：自转旋翼机",
+        "url": "https://www.caa.co.uk/general-aviation/aircraft-ownership-and-maintenance/types-of-aircraft/gyroplanes/"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "11151",
+    "explanationHtml": "<p>天然太空环境包括低压或真空、各类辐射以及微流星体等。题中的“感应磁场”和“有机物沉积”若指航天器运行造成的局部影响，应与天然环境区分；自然界本身也存在磁场，不能把一切磁场都称为诱导环境。</p>",
+    "sources": [
+      {
+        "title": "NASA：太空环境",
+        "url": "https://ntrs.nasa.gov/api/citations/20205007801/downloads/Control%20de%20la%20Corrosi%C3%B3n%20en%20la-English%20Translation-R.pdf"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "11155",
+    "explanationHtml": "<p>狭义相对论以两条公设为基础：各惯性参考系中的物理定律相同，真空光速对所有惯性观察者相同。引力导致的光谱红移、时空弯曲属于广义相对论的讨论范围。</p>",
+    "sources": [
+      {
+        "title": "OpenStax：狭义相对论的两条公设",
+        "url": "https://openstax.org/books/physics/pages/10-1-postulates-of-special-relativity"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "11156",
+    "explanationHtml": "<p><strong>原站答案存在冲突：</strong>摩尔是物质的量的单位，不是物理量本身。1 mol对应确定数目的粒子，因此“连接宏观数量和微观粒子数量”这一说法本身成立，不应判错。现行定义固定阿伏伽德罗常数；旧碳定义还必须明确是碳-12，不能泛称碳原子。</p>",
+    "sources": [
+      {
+        "title": "国际计量局：摩尔的SI定义",
+        "url": "https://www.bipm.org/en/si-base-units/mole"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "11157",
+    "explanationHtml": "<p>科技伦理既涉及技术对生命、生态和社会的影响，也涉及人与人及人与智能系统的关系；判断重点是科技活动中的权利、责任与风险。</p>",
+    "sources": [
+      {
+        "title": "中办国办《关于加强科技伦理治理的意见》",
+        "url": "https://www.mee.gov.cn/zcwj/zyygwj/202203/t20220321_971981.shtml"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "11158",
+    "explanationHtml": "<p>基因编辑、器官移植涉及生命和自主权；算法歧视涉及公平，数据泄露涉及隐私。因此这些都可能引出科技伦理问题。</p>",
+    "sources": [
+      {
+        "title": "中办国办《关于加强科技伦理治理的意见》",
+        "url": "https://www.mee.gov.cn/zcwj/zyygwj/202203/t20220321_971981.shtml"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "11159",
+    "explanationHtml": "<p>诱骗受试者或未经有效知情同意实施有害实验，违反生命权利和自主选择要求；减轻实验动物痛苦、充分告知受试者则符合伦理原则。</p>",
+    "sources": [
+      {
+        "title": "中办国办《关于加强科技伦理治理的意见》",
+        "url": "https://www.mee.gov.cn/zcwj/zyygwj/202203/t20220321_971981.shtml"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "11160",
+    "explanationHtml": "<p>治理的目的在于协调规则、规范科研并兼顾创新与风险，不是遏制创新本身。</p>",
+    "sources": [
+      {
+        "title": "中办国办《关于加强科技伦理治理的意见》",
+        "url": "https://www.mee.gov.cn/zcwj/zyygwj/202203/t20220321_971981.shtml"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "11161",
+    "explanationHtml": "<p>所列四项均是该《意见》明确提出的原则；文件还包括公平公正。作答时不要把未列出的第五项误当成四个选项中的错误。</p>",
+    "sources": [
+      {
+        "title": "中办国办《关于加强科技伦理治理的意见》",
+        "url": "https://www.mee.gov.cn/zcwj/zyygwj/202203/t20220321_971981.shtml"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "11164",
+    "explanationHtml": "<p>负责任创新要求考虑社会影响并遵守科研诚信；“快速致富”不是科研伦理原则。</p>",
+    "sources": [
+      {
+        "title": "中办国办《关于加强科技伦理治理的意见》",
+        "url": "https://www.mee.gov.cn/zcwj/zyygwj/202203/t20220321_971981.shtml"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "11165",
+    "explanationHtml": "<p>四个选项分别对应爱国、奉献、创新、育人精神，均在文件列举范围内；此外还有求实和协同精神。</p>",
+    "sources": [
+      {
+        "title": "科技部：弘扬科学家精神意见新闻通气会",
+        "url": "https://www.most.gov.cn/xwzx/twzb/fbh19061301/index.html"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "11166",
+    "explanationHtml": "<p>科研合作要求理解协作的价值并改变孤立封闭的工作观念。“两耳不闻窗外事”和“万事不求人”不符合协同攻关要求。</p>",
+    "sources": [
+      {
+        "title": "科技部：弘扬科学家精神意见新闻通气会",
+        "url": "https://www.most.gov.cn/xwzx/twzb/fbh19061301/index.html"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "11168",
+    "explanationHtml": "<p>数值实验先建立反映问题的数学模型，再转换为计算机能够处理的模型或算法，给定初始条件等输入，运行后分析结果并检查其可信度。调查研究对象可能是前期取材方式，不等于数值实验本身的计算步骤。</p>",
+    "sources": [
+      {
+        "title": "斯坦福哲学百科：科学中的计算机模拟",
+        "url": "https://plato.stanford.edu/entries/simulations-science/"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "11171",
+    "explanationHtml": "<p>科学创新需要独立思辨和依据证据质疑，不应盲从权威、职位或书本。但质疑须伴随认真求证，并不是否定一切。</p>",
+    "sources": [
+      {
+        "title": "科技部：弘扬科学家精神意见新闻通气会",
+        "url": "https://www.most.gov.cn/xwzx/twzb/fbh19061301/index.html"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "11174",
+    "explanationHtml": "<p>第二次工业革命的重要变化包括电力应用、内燃机、现代通信以及化学工业的发展。这些技术相互促进，使生产动力、交通通信和材料制造发生转变，所以题中四类技术均属于这一阶段的重要成果。</p>",
+    "sources": [
+      {
+        "title": "OpenStax：第二次工业革命",
+        "url": "https://openstax.org/books/world-history-volume-2/pages/9-1-the-second-industrial-revolution"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "11175",
+    "explanationHtml": "<p>丁肇中团队通过高分辨率探测装置，从大量背景粒子中辨认出新粒子的电子、正电子衰变信号。这体现了问题创新、实验技巧和仪器性能的重要性；发现依赖严谨测量，不能用“急于求成”概括。</p>",
+    "sources": [
+      {
+        "title": "诺贝尔奖：1976年物理学奖新闻稿",
+        "url": "https://www.nobelprize.org/prizes/physics/1976/press-release/?related=1"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "11176",
+    "explanationHtml": "<p>类比要比较对象间的相关相似性，同时检查可能使推断失效的差异。类比通常只为结论提供不同强度的支持，不能把局部相似直接当成整体相同或必然成立。</p>",
+    "sources": [
+      {
+        "title": "斯坦福哲学百科：类比与类比推理",
+        "url": "https://plato.stanford.edu/entries/reasoning-analogy/"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "11180",
+    "explanationHtml": "<p>科学观察应忠实记录事实，避免个人期望和偏见支配结果；围绕问题选择有代表性的对象，并从相关方面完整记录。题中“主观性”不应作为应遵循的观察原则。</p>",
+    "sources": [
+      {
+        "title": "斯坦福哲学百科：科学客观性",
+        "url": "https://plato.stanford.edu/entries/scientific-objectivity/"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "11182",
+    "explanationHtml": "<p>几何学研究图形的形状、大小以及位置、空间关系。题目把其对象概括为“空间”和“形状”；欧几里得几何正是用定义、公设和证明研究这些关系的经典体系。</p>",
+    "sources": [
+      {
+        "title": "圣安德鲁斯大学MacTutor：欧几里得",
+        "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Euclid/"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "11184",
+    "explanationHtml": "<p>实验、观察和测量直接获取或处理经验资料。<strong>分类需留意：</strong>类比是从对象间相似性展开的推理，可结合经验使用，但并非与观察同类的直接取证活动；原站将四项均列为经验方法，是较宽泛的课程划分，不能理解为类比结论无需检验。</p>",
+    "sources": [
+      {
+        "title": "斯坦福哲学百科：类比与类比推理",
+        "url": "https://plato.stanford.edu/entries/reasoning-analogy/"
+      },
+      {
+        "title": "斯坦福哲学百科：Scientific Method",
+        "url": "https://plato.stanford.edu/entries/scientific-method/"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "11192",
+    "explanationHtml": "<p>探索、理性、实证和反思体现追求真理的态度；关键是大胆提出问题并认真检验，而不是凭权威或喜好决定结论。</p>",
+    "sources": [
+      {
+        "title": "科技部：弘扬科学家精神意见新闻通气会",
+        "url": "https://www.most.gov.cn/xwzx/twzb/fbh19061301/index.html"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "11193",
+    "explanationHtml": "<p>科学素养既包括理解基本概念与科学过程，也包括科学精神、科学态度，以及运用知识分析问题和解决问题的能力。理解科学、技术和社会的联系有助于把所学用于现实决策，因此题中这些方面应综合看待。</p>",
+    "sources": [
+      {
+        "title": "国务院《全民科学素质行动规划纲要（2021—2035年）》",
+        "url": "https://www.mee.gov.cn/zcwj/gwywj/202106/t20210625_841836.shtml"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "11195",
+    "explanationHtml": "<p>复杂问题常需要结合多种方法或多个学科的视角；组合方法建立在各基础方法的正确使用上。应按具体问题选择和整合方法，不能认为存在一套对所有研究都有效的唯一固定步骤。</p>",
+    "sources": [
+      {
+        "title": "美国国家科学院：促进跨学科研究",
+        "url": "https://www.nationalacademies.org/read/11153/chapter/12"
+      },
+      {
+        "title": "斯坦福哲学百科：Scientific Method",
+        "url": "https://plato.stanford.edu/entries/scientific-method/"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "11202",
+    "explanationHtml": "<p>资料收集可按主题关键词检索，再沿重要文献的参考文献和后续引用继续追踪。数据库提醒有助于持续跟踪新成果，其他相关资料渠道也可补充，不能只做一次孤立检索。</p>",
+    "sources": [
+      {
+        "title": "昆士兰大学图书馆：文献检索方法",
+        "url": "https://guides.library.uq.edu.au/tools-and-techniques/literature-reviews/conduct-your-search"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "11206",
+    "explanationHtml": "<p>理想化模型有意突出研究所需的性质，略去或简化次要、无关因素，使复杂问题可以处理。例如质点模型忽略物体形状。简化的适用条件仍需说明，不能任意删除影响结论的关键因素。</p>",
+    "sources": [
+      {
+        "title": "斯坦福哲学百科：Models in Science",
+        "url": "https://plato.stanford.edu/entries/models-science/"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "11207",
+    "explanationHtml": "<p>实验通过主动改变研究因素、控制其他相关条件并观察结果，帮助检验因果关系。因此主动性、可控制性和因果分析是其特点；任何实验仍有误差、条件和解释限制，不能保证一次便得出终局结论。</p>",
+    "sources": [
+      {
+        "title": "OpenStax：实验变量、控制与因果关系",
+        "url": "https://openstax.org/books/psychology-2e/pages/2-3-analyzing-findings"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "11212",
+    "explanationHtml": "<p>文献法利用已有记录研究过去或远处的对象，可减少重复采集成本并把分散材料整理成体系；但资料的真实性、完整性和立场仍要审查。“系统性强、真实可靠”应理解为选用可靠文献后的优势，不能理解为所有文献天然可靠，更不能保证完全准确。</p>",
+    "sources": [
+      {
+        "title": "昆士兰大学图书馆：文献检索方法",
+        "url": "https://guides.library.uq.edu.au/tools-and-techniques/literature-reviews/conduct-your-search"
+      },
+      {
+        "title": "斯坦福哲学百科：科学客观性",
+        "url": "https://plato.stanford.edu/entries/scientific-objectivity/"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "11221",
+    "explanationHtml": "<p>统计与测量通常直接处理数量关系，类比则是一种推理方式。<strong>原题分类过于绝对：</strong>观察既可记录性质，也可按统一规则记录次数、频率等定量数据；所以不能一般地断言“观察方法不属于定量研究”。原站答案保留，但需理解这一适用限制。</p>",
+    "sources": [
+      {
+        "title": "SAGE研究方法教材：定量与定性观察",
+        "url": "https://us.sagepub.com/sites/default/files/upm-binaries/106363_Ch08_04.pdf"
+      },
+      {
+        "title": "斯坦福哲学百科：类比与类比推理",
+        "url": "https://plato.stanford.edu/entries/reasoning-analogy/"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "11224",
+    "explanationHtml": "<p>农业技术覆盖农业生产的多个环节：良种选育繁育、耕作栽培、土壤改良与肥料施用、病虫害防治等分别解决品种、生产条件、养分和生物危害问题，所以所列项目均属于农业技术范围。</p>",
+    "sources": [
+      {
+        "title": "《中华人民共和国农业技术推广法》",
+        "url": "https://lyj.pds.gov.cn/contents/15571/133372.html"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "11225",
+    "explanationHtml": "<p>方法移植应理解来源学科的概念、工具和适用条件，再结合目标问题调整使用。跨学科研究可以整合甚至发展理论，因此“绝不打破原有理论”的绝对限制不合理；避免机械照搬也是关键。</p>",
+    "sources": [
+      {
+        "title": "美国国家科学院：促进跨学科研究",
+        "url": "https://www.nationalacademies.org/read/11153/chapter/12"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "11227",
+    "explanationHtml": "<p>中国古代“四大发明”通常指造纸术、印刷术、火药和指南针，分别在记录传播信息、军事技术和导航等方面产生了重要影响。它们是约定俗成的四项历史技术，不是所有古代重要发明的完整名单。</p>",
+    "sources": [
+      {
+        "title": "中国科学院自然科学史研究所：中国四大发明述评",
+        "url": "https://ihns.cas.cn/kxcb_/kxjd/202212/t20221206_6567193.html"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "11228",
+    "explanationHtml": "<p>20世纪60年代天文学常称的四大发现是类星体、脉冲星、宇宙微波背景辐射和星际有机分子。它们把研究视野扩展到极端天体、早期宇宙和星际化学，射电观测技术在其中起了重要作用。</p>",
+    "sources": [
+      {
+        "title": "《天文学进展》：脉冲星与20世纪60年代四大发现",
+        "url": "https://shao.cas.cn/twxjz/wzll/201602/201504sp/202307/P020230718462024794008.pdf"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "11229",
+    "explanationHtml": "<p>经验科学要求主张能与观察证据对照并接受检验；宗教信仰、艺术表达和文学创作不以同一种经验检验为必要条件。这里区分的是认识活动的特点，并非据此否定其他活动的价值。</p>",
+    "sources": [
+      {
+        "title": "斯坦福哲学百科：科学与伪科学",
+        "url": "https://plato.stanford.edu/entries/pseudo-science/"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "11233",
+    "explanationHtml": "<p>科学划界讨论科学与非科学、伪科学等活动的区别。哲学、伦理、艺术等不因不属于经验科学就自动成为伪科学；伪科学通常还涉及冒用科学名义或违背科学检验规范。</p>",
+    "sources": [
+      {
+        "title": "斯坦福哲学百科：科学与伪科学",
+        "url": "https://plato.stanford.edu/entries/pseudo-science/"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "11234",
+    "explanationHtml": "<p>可检验性要求主张与可能的观察结果相联系，并容许证据反对它。波普尔强调可证伪性，即存在可能与理论冲突的观察；这不等于理论已被证伪，也不表示一次检验即可永久证明真理。</p>",
+    "sources": [
+      {
+        "title": "斯坦福哲学百科：科学与伪科学",
+        "url": "https://plato.stanford.edu/entries/pseudo-science/"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "11241",
+    "explanationHtml": "<p>古希腊建筑三种典型柱式是多立克、爱奥尼克、科林斯。塔司干柱式不属于这一希腊三柱式分类。</p>",
+    "sources": [
+      {
+        "title": "大都会艺术博物馆：古希腊建筑",
+        "url": "https://www.metmuseum.org/fr/essays/architecture-in-ancient-greece"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "11242",
+    "explanationHtml": "<p>古希腊原子论的主要奠基人物是留基伯和德谟克利特，主张原子在虚空中运动，组合变化形成万物。不要把古代哲学原子论等同于现代实验原子理论。</p>",
+    "sources": [
+      {
+        "title": "斯坦福哲学百科：古代原子论",
+        "url": "https://plato.stanford.edu/entries/atomism-ancient/"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  }
+]

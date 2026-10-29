@@ -1,0 +1,1302 @@
+[
+  {
+    "questionId": "9966",
+    "explanationHtml": "<p>科学史研究科学知识与实践在历史中的发展，包括发现、方法、人物及其社会背景。题干把科学发展中已经发生的历史概括为科学史，符合这一基本含义。</p>",
+    "sources": [
+      {
+        "title": "剑桥大学科学史与科学哲学系：课程介绍",
+        "url": "https://www.hps.cam.ac.uk/study/undergraduate/partii"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "9967",
+    "explanationHtml": "<p>科学史考察科学如何发展，科学哲学分析知识、方法和解释的依据。二者相互提供问题与材料，剑桥大学也将它们结合为科学史与科学哲学课程。</p>",
+    "sources": [
+      {
+        "title": "剑桥大学科学史与科学哲学系：课程介绍",
+        "url": "https://www.hps.cam.ac.uk/study/undergraduate/partii"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "9968",
+    "explanationHtml": "<p>萨顿于1912年创办《Isis》。美国科学史学会2026年的会员公告仍列出该刊的阅读服务，因此题干中“今天已不再出版”的说法不成立。</p>",
+    "sources": [
+      {
+        "title": "美国科学史学会：学会历史",
+        "url": "https://hssonline.org/page/history"
+      },
+      {
+        "title": "美国科学史学会：2026年会员续费公告",
+        "url": "https://hssonline.org/blogpost/1987463/516663/Membership-Renewal-2026"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "9970",
+    "explanationHtml": "<p>萨顿奖章是美国科学史学会的最高荣誉，表彰科学史研究贡献。它的适用范围是科学史学科，不能笼统说成整个科学界的最高奖励。</p>",
+    "sources": [
+      {
+        "title": "美国科学史学会：Sarton Medal",
+        "url": "https://hssonline.org/page/sartonmedal"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "9972",
+    "explanationHtml": "<p>汤因比的《历史研究》以文明兴衰和“挑战与应战”为重要线索，属于20世纪思辨历史哲学的重要成果。题干指的是其历史哲学与文明研究地位。</p>",
+    "sources": [
+      {
+        "title": "中国人民大学清史研究所：思辨历史哲学的式微及汤因比",
+        "url": "https://iqh.ruc.edu.cn/old/jssxwhsyj/xsqyyllyj/sx_llff/65917ad9ba7d4f9f8f26e7592612e9d4.htm"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "9973",
+    "explanationHtml": "<p>这属于摩尔根的历史分期观点，恩格斯在《家庭、私有制和国家的起源》中加以介绍。将标音文字的使用作为进入文明阶段的标志，不能归到马林诺夫斯基名下。</p>",
+    "sources": [
+      {
+        "title": "恩格斯原著：《家庭、私有制和国家的起源》第一章",
+        "url": "https://www.marxists.org/archive/marx/works/1884/origin-family/ch01.htm"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "9974",
+    "explanationHtml": "<p>史前人类已会制造和使用石器，这是技术活动；系统化的科学知识形成得晚得多。因此不能说科学先于技术，二者也不能按今天的关系倒推起源。</p>",
+    "sources": [
+      {
+        "title": "史密森学会人类起源项目：Early Stone Age Tools",
+        "url": "https://humanorigins.si.edu/evidence/behavior/stone-tools/early-stone-age-tools"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "9975",
+    "explanationHtml": "<p>文字使经济记录、语言和文学能以稳定形式保存并传播。两河流域早期泥版先记经济信息，后来还能记录诗歌，显示文字对知识和文明传承的重要作用。</p>",
+    "sources": [
+      {
+        "title": "纽约大都会艺术博物馆：苏美尔行政记录泥版",
+        "url": "https://www.metmuseum.org/art/collection/search/327385"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "9976",
+    "explanationHtml": "<p>费曼是1965年诺贝尔物理学奖得主，与朝永振一郎、施温格共同获奖，获奖工作与量子电动力学有关。因此“费曼获得诺贝尔奖”正确。</p>",
+    "sources": [
+      {
+        "title": "美国费米实验室：粒子物理发现年表",
+        "url": "https://www.fnal.gov/pub/science/particle-physics-101/worldwide-discoveries.html"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "9977",
+    "explanationHtml": "<p>这里的“宿”通常对应梵语nakṣatra，词典释义包括星、星群和月道上的星宿。它与月亮运行有关，却不等于“月亮”这个天体本身。</p>",
+    "sources": [
+      {
+        "title": "科隆大学梵语词典项目：Lanman《梵语读本》nakṣatra词条",
+        "url": "https://www.sanskrit-lexicon.uni-koeln.de/scans/LANScan/LANScanpdf/lan_211.pdf"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "9978",
+    "explanationHtml": "<p>古希腊人的定居点遍及地中海和黑海沿岸，范围超出今天希腊。题干的“版图”宜理解为希腊世界的活动范围；许多城邦政治独立，并非一个统一国家的领土。</p>",
+    "sources": [
+      {
+        "title": "纽约大都会艺术博物馆：Ancient Greek Colonization and Trade",
+        "url": "https://www.metmuseum.org/fr/essays/ancient-greek-colonization-and-trade-and-their-influence-on-greek-art"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "9979",
+    "explanationHtml": "<p>毕昇首先使用胶泥制作活字，后来中国还发展出木活字等形式；欧洲古登堡的活字印刷以金属活字著称。题干将双方材料特点颠倒，且把中国活字材料单一化。</p>",
+    "sources": [
+      {
+        "title": "教育部全国青少年普法网：印刷术与版权发展",
+        "url": "https://qspfw.moe.gov.cn/html/blog/20190717/16044.html"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "9980",
+    "explanationHtml": "<p>前六卷由徐光启与利玛窦合译，1607年刊行；后九卷由李善兰与伟烈亚力合译，1857年刊行。题干把两位外国合译者的位置调换，年份也不准确。</p>",
+    "sources": [
+      {
+        "title": "人民日报：《几何原本》的中国之传之用之藏",
+        "url": "https://paper.people.com.cn/rmrbwap/html/2024-04/12/nw.D110000renmrb_20240412_2-17.htm"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "9981",
+    "explanationHtml": "<p>泰勒斯以水说明万物的本原；后来米利都学派的阿那克西美尼以气作为本原，并借气的稀薄与凝聚解释变化。题干概括了两种早期自然哲学主张。</p>",
+    "sources": [
+      {
+        "title": "斯坦福哲学百科：Presocratic Philosophy",
+        "url": "https://plato.stanford.edu/entries/presocratics/"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "9983",
+    "explanationHtml": "<p>原站答案为“错误”；中科院对《齐民要术》的研究显示，农书吸收经验、调查并验证农业实践，确实联系农学与技术。题干未见明确错误点，存在争议，需核对教材原文。</p>",
+    "sources": [
+      {
+        "title": "中国科学院自然科学史研究所：贾思勰与《齐民要术》写作的若干问题",
+        "url": "https://agri-history.ihns.ac.cn/history/chapter01.htm"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "9984",
+    "explanationHtml": "<p>青铜铸造和广泛使用促成新的工具、兵器及礼器体系，因而考古学用“青铜时代”概括这一阶段。各地区进入该阶段的时间并不完全相同。</p>",
+    "sources": [
+      {
+        "title": "中国国家博物馆：中国古代青铜器艺术",
+        "url": "https://www.chnmuseum.cn/zl/zlhg/201812/t20181220_32171.shtml"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "9986",
+    "explanationHtml": "<p>德谟克利特是古希腊原子论的主要奠基者之一，以原子和虚空解释世界。这里的“原子”属于古代哲学模型，不能直接等同于现代实验科学中的原子概念。</p>",
+    "sources": [
+      {
+        "title": "斯坦福哲学百科：Democritus",
+        "url": "https://plato.stanford.edu/entries/democritus/"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "9987",
+    "explanationHtml": "<p>原站答案为“正确”，沿用巴比伦空中花园列为七大奇观的传统说法；法国文化部资料指出巴比伦尚未发现对应遗迹，实际地点可能是尼尼微，存在争议。</p>",
+    "sources": [
+      {
+        "title": "法国文化部：Hanging gardens",
+        "url": "https://archeologie.culture.gouv.fr/monde/en/glossary/hanging-gardens"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "9988",
+    "explanationHtml": "<p>吉萨考古发现了金字塔工人的聚落与墓葬，支持由有组织的埃及劳动力建造、以食物支付报酬的解释。将建造者一概说成遭虐待的奴隶，缺乏依据。</p>",
+    "sources": [
+      {
+        "title": "哈佛大学吉萨项目：常见问题——谁建造了金字塔",
+        "url": "https://giza.fas.harvard.edu/faq/"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "9989",
+    "explanationHtml": "<p>早期希腊自然哲学倾向把世界看成可理解、有秩序的自然整体，并寻找一般原因。题干强调的是这种理性解释倾向，不表示古希腊所有观念都已摆脱神话。</p>",
+    "sources": [
+      {
+        "title": "斯坦福哲学百科：Presocratic Philosophy",
+        "url": "https://plato.stanford.edu/entries/presocratics/"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "9990",
+    "explanationHtml": "<p>米利都位于小亚细亚的伊奥尼亚地区，即今土耳其西海岸。泰勒斯等米利都学派人物属于古希腊文化传统，但其活动地点不能说成今天的希腊本土。</p>",
+    "sources": [
+      {
+        "title": "美国Manchester University：米利都学派原始文献选读",
+        "url": "https://users.manchester.edu/Facstaff/SSNaragon/Online/texts/316/Presocratics/Milesians.pdf"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "9992",
+    "explanationHtml": "<p>中世纪并非科学完全停滞的时期。迪昂的科学史研究揭示了中世纪与近代早期科学之间的连续性，因此其知识与方法对后来的发展提供基础。</p>",
+    "sources": [
+      {
+        "title": "斯坦福哲学百科：Pierre Duhem",
+        "url": "https://plato.stanford.edu/entries/duhem/"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "9998",
+    "explanationHtml": "<p>这里应理解为今天常用的印度—阿拉伯十进制位值记数法：数字的数值取决于位置，并使用零。不能把它扩展为人类一切十进计数最早都出于印度。</p>",
+    "sources": [
+      {
+        "title": "圣安德鲁斯大学数学史档案：Indian numerals",
+        "url": "https://mathshistory.st-andrews.ac.uk/HistTopics/Indian_numerals/"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "9999",
+    "explanationHtml": "<p>作为中国古代数学体系代表性总结的是《九章算术》。它归纳实际问题及算法，对后世数学影响深远；题干将这项历史地位错置到《周髀算经》名下。</p>",
+    "sources": [
+      {
+        "title": "中国珠算博物馆：珠算的形成",
+        "url": "https://zgzsbwg.nantong.cn/zgzsbwg/xc/content/86ce847f-d5fa-4264-a1b2-aac081cabdc5.html"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "10000",
+    "explanationHtml": "<p>中国现存最早的中医学理论奠基之作是《黄帝内经》，包括《素问》和《灵枢》。题干混淆了这部典籍与《伤寒杂病论》的历史地位。</p>",
+    "sources": [
+      {
+        "title": "国家图书馆：民族记忆·精神家园——《黄帝内经》",
+        "url": "https://www.nlc.cn/migrated/pcab/ztzl/mzjy/hhdj/bjzm/index_10.htm"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "10001",
+    "explanationHtml": "<p>《齐民要术》的作者是贾思勰，系统总结农业生产经验。题干把作者写成郦道元，作者归属错误；读题时应把书名与作者对应起来。</p>",
+    "sources": [
+      {
+        "title": "中国科学院自然科学史研究所：贾思勰与《齐民要术》写作的若干问题",
+        "url": "https://agri-history.ihns.ac.cn/history/chapter01.htm"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "10002",
+    "explanationHtml": "<p>马克思所说的三项是火药、指南针和印刷术；题干把指南针替换为造纸术。四大发明与这段特定论述所列的三大发明不能混记。</p>",
+    "sources": [
+      {
+        "title": "中国科学院自然科学史研究所：中国四大发明和中国二十四大发明述评",
+        "url": "https://www.ihns.cas.cn/kxcb_/kxjd/202212/t20221206_6567193.html"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "10003",
+    "explanationHtml": "<p>都江堰始建于战国时期，由秦国蜀郡太守李冰主持修建。它利用岷江水势进行分水、排沙和引水灌溉，年代归属为战国是正确的。</p>",
+    "sources": [
+      {
+        "title": "宁夏回族自治区水利厅：都江堰——世界千年无坝引水奇迹",
+        "url": "https://slt.nx.gov.cn/xxgk_281/fdzdgknr/slkp/jhzl/202605/t20260519_5244001.html"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "10005",
+    "explanationHtml": "<p>《天文学大成》的作者是托勒密，系统论述古代数学天文学及其地心体系。题干把作者写成盖伦，作者归属错误。</p>",
+    "sources": [
+      {
+        "title": "圣安德鲁斯大学数学史档案：Ptolemy",
+        "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Ptolemy/"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "10006",
+    "explanationHtml": "<p>《天体运行论》于1543年出版，论述哥白尼的日心体系。题干将1543年写成1453年；哥白尼生于1473年，1453年甚至早于其出生。</p>",
+    "sources": [
+      {
+        "title": "圣安德鲁斯大学数学史档案：Nicolaus Copernicus",
+        "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Copernicus/"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "10007",
+    "explanationHtml": "<p>伽利略研究过摆的运动，以斜面实验探索落体规律，并研究抛体的水平与竖直运动。题干所列三方面与其力学工作相符。</p>",
+    "sources": [
+      {
+        "title": "莱斯大学伽利略项目：Galileo's Pendulum Experiments",
+        "url": "https://galileo.library.rice.edu/lib/student_work/experiment95/galileo_pendulum.html"
+      },
+      {
+        "title": "伽利略博物馆：Inclined plane",
+        "url": "https://catalogue.museogalileo.it/multimedia/InclinedPlaneBis.html"
+      },
+      {
+        "title": "莱斯大学伽利略项目：Projectile Motion",
+        "url": "https://galileo.library.rice.edu/lib/student_work/experiment95/paraintr.html"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "10008",
+    "explanationHtml": "<p>《怀疑的化学家》由英国科学家罗伯特·波义耳撰写，出版于1661年。题干把作者写成胡克，并把出版时间改成1666年，因此错误。</p>",
+    "sources": [
+      {
+        "title": "英国皇家学会：Our unusual Chymist",
+        "url": "https://royalsociety.org/blog/2013/01/our-unusual-chymist/"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "10009",
+    "explanationHtml": "<p>18世纪星云假说通常联系康德1755年的论述和拉普拉斯1796年的理论。题干把拉普拉斯换成勒维烈，混淆了不同天文学家的工作。</p>",
+    "sources": [
+      {
+        "title": "NASA技术报告：太阳系起源理论中的康德与拉普拉斯",
+        "url": "https://ntrs.nasa.gov/api/citations/19670001557/downloads/19670001557.pdf"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "10010",
+    "explanationHtml": "<p>达尔文的《物种起源》在1859年11月出版，系统阐述通过自然选择解释物种变化的理论。记忆时区分1858年理论联合发表与1859年著作出版。</p>",
+    "sources": [
+      {
+        "title": "剑桥大学达尔文通信项目：On the Origin of Species",
+        "url": "https://www.darwinproject.ac.uk/about-darwin/origin-species"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "10012",
+    "explanationHtml": "<p>恩格斯论述的三大发现是细胞学说、能量转化以及生物进化理论。题干以元素周期律替换细胞学说，因此不符合该特定历史表述。</p>",
+    "sources": [
+      {
+        "title": "恩格斯原著：《路德维希·费尔巴哈和德国古典哲学的终结》第四部分",
+        "url": "https://www.marxists.org/archive/marx/works/1886/ludwig-feuerbach/ch04.htm"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "10013",
+    "explanationHtml": "<p>19世纪末相继发现X射线、天然放射性和电子，使对物质与原子的研究进入新阶段。它们是经典物理之外新问题的重要来源，为20世纪的理论突破提供背景。</p>",
+    "sources": [
+      {
+        "title": "美国物理联合会Physics Today：The Discovery of Radioactivity",
+        "url": "https://physicstoday.aip.org/features/the-discovery-of-radioactivity"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "10014",
+    "explanationHtml": "<p>爱因斯坦1905年的《论动体的电动力学》提出相对性原理与光速不变原理，建立狭义相对论的基本框架。题干中的作者、年代与论文相符。</p>",
+    "sources": [
+      {
+        "title": "美国物理教师协会：爱因斯坦1905年论文英译本",
+        "url": "https://psrc.aapt.org/document/ServeFile.cfm?Attachment=1&DocFID=5&DocID=4&ID=2145"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "10016",
+    "explanationHtml": "<p>《坤舆全图》的作者是南怀仁，故宫资料也将康熙时期《灵台仪象志》归于南怀仁。题干把这些著作统一归给汤若望，作者关系有误。</p>",
+    "sources": [
+      {
+        "title": "日本国立文化财机构ColBase：《坤舆全图》",
+        "url": "https://colbase.nich.go.jp/collection_items/kyuhaku/A1?locale=zh"
+      },
+      {
+        "title": "故宫博物院：《御定仪象考成》",
+        "url": "https://www.dpm.org.cn/ancient/hall/164826.html"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "10017",
+    "explanationHtml": "<p>进化论确实影响社会思想，形成把生物演化概念用于社会的多种论述。应区分生物进化理论与社会达尔文主义；后者的社会价值主张不能由生物学直接证明。</p>",
+    "sources": [
+      {
+        "title": "美国大屠杀纪念馆：Antisemitism in History — Racial Antisemitism",
+        "url": "https://encyclopedia.ushmm.org/content/en/article/antisemitism-in-history-racial-antisemitism-18751945?series=28"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "10018",
+    "explanationHtml": "<p>韦达在1591年的《分析术引论》中系统引入代数字母记号，使已知量和未知量都能用符号表达。这是符号代数发展中的重要一步。</p>",
+    "sources": [
+      {
+        "title": "圣安德鲁斯大学数学史档案：François Viète",
+        "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Viete/"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "10019",
+    "explanationHtml": "<p>科学活动由人进行，其研究问题、合作方式和评价受到社会关系与价值观影响。强调这些历史条件，并不等于科学结论可以脱离自然事实任意编造。</p>",
+    "sources": [
+      {
+        "title": "斯坦福哲学百科：The Social Dimensions of Scientific Knowledge",
+        "url": "https://plato.stanford.edu/entries/scientific-knowledge-social/"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "10020",
+    "explanationHtml": "<p>燃素是旧理论为解释燃烧而设想的物质，认为它会在燃烧时释放。拉瓦锡的氧化理论取代了这种解释，燃素不是现代化学确认的元素。</p>",
+    "sources": [
+      {
+        "title": "美国化学会：Antoine Laurent Lavoisier — The Chemical Revolution",
+        "url": "https://www.acs.org/education/whatischemistry/landmarks/lavoisier.html"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "10021",
+    "explanationHtml": "<p>陶范法通过制作铸范浇注铜液成形；失蜡法先制蜡模，再形成铸型，适于复杂透雕形状。两者都是青铜铸造技术，题干列举的工艺名称正确。</p>",
+    "sources": [
+      {
+        "title": "上海博物馆：中国古代青铜器馆",
+        "url": "https://www.shanghaimuseum.net/mu/frontend/pg/article/id/RI00004029"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "10022",
+    "explanationHtml": "<p>中国古代玻璃有琉璃、料器等称谓，名称还随时代与来源变化。故宫研究提到，古人常用“琉璃”称中国自制玻璃，题干笼统断言其俗称就是“玻璃”不准确。</p>",
+    "sources": [
+      {
+        "title": "故宫博物院：《从档案看宁寿宫门窗玻璃的安装》",
+        "url": "https://www.dpm.org.cn/Uploads/File/pdf/e9/ca/ed/e9caeddc95064ccd67d06687e72f44ad.pdf"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "10023",
+    "explanationHtml": "<p>技术会带来新的能力，也可能带来风险和成本。例如联合国教科文组织要求同时考察人工智能的收益、局限与风险，体现对技术影响进行双向评价的必要性。</p>",
+    "sources": [
+      {
+        "title": "联合国教科文组织：《人工智能伦理问题建议书》",
+        "url": "https://www.unesco.org/en/legal-affairs/recommendation-ethics-artificial-intelligence"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "10024",
+    "explanationHtml": "<p>拉马克用器官的使用与废退解释变化，并主张这种获得性变化可以遗传。题目问的是拉马克的历史观点，不能据此将该观点当成现代遗传学的普遍规律。</p>",
+    "sources": [
+      {
+        "title": "加州大学伯克利古生物博物馆：Jean-Baptiste Lamarck",
+        "url": "https://ucmp.berkeley.edu/history/lamarck.html"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "10025",
+    "explanationHtml": "<p>原站答案为“正确”；海尔蒙特确实做过柳树实验，但美国化学会将质量守恒定律的明确表述归于拉瓦锡。把该定律的发现直接归给海尔蒙特存在争议。</p>",
+    "sources": [
+      {
+        "title": "美国化学会：Antoine Laurent Lavoisier — The Chemical Revolution",
+        "url": "https://www.acs.org/education/whatischemistry/landmarks/lavoisier.html"
+      },
+      {
+        "title": "植物科学教育项目SAPS：Van Helmont's experiments",
+        "url": "https://www.saps.org.uk/teaching-resources/resources/797/video-clip-van-helmonts-experiments-on-plant-growth/"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "10027",
+    "explanationHtml": "<p>狄拉克把量子力学与狭义相对论结合，建立相对论性量子理论。这里的协调主要指狭义相对论；不能据此认为量子理论与广义相对论已完全统一。</p>",
+    "sources": [
+      {
+        "title": "诺贝尔奖官网：Paul A.M. Dirac — Facts",
+        "url": "https://www.nobelprize.org/prizes/physics/1933/dirac/facts/"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "10028",
+    "explanationHtml": "<p>沃森1950年已获得动物学博士学位，而DNA双螺旋模型于1953年提出。因此发现模型时两人都是生物学博士生的说法不成立，不能把两人的教育经历混为一谈。</p>",
+    "sources": [
+      {
+        "title": "诺贝尔奖官网：James Watson — Biographical",
+        "url": "https://www.nobelprize.org/prizes/medicine/1962/watson/biographical/"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "10029",
+    "explanationHtml": "<p>科学素质同时要求必要的科技知识、科学方法和实际运用能力。方法必须用于具体内容，重视方法并不能推出可以削弱知识学习，二者应相互促进。</p>",
+    "sources": [
+      {
+        "title": "国务院：《全民科学素质行动规划纲要（2021—2035年）》",
+        "url": "https://www.beijing.gov.cn/zhengce/gwywj/202106/t20210625_2422539.html"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "10030",
+    "explanationHtml": "<p>“鱼”比喻直接获得的结果，“渔”比喻获得结果的方法。句意强调教会人自主解决问题的办法，使其能持续学习和行动，符合题干对方法重要性的理解。</p>",
+    "sources": [
+      {
+        "title": "教育部：每日好词语——授人以渔",
+        "url": "https://www.moe.gov.cn/jyb_xwfb/moe_2082/2025/2025_zl02/202601/t20260116_1426813.html"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "10031",
+    "explanationHtml": "<p>统计通过整理、汇总和分析数据，揭示频数、比例、差异及关联等特征。这里的数量分析可服务于认识规律，但统计相关本身不能自动证明因果关系。</p>",
+    "sources": [
+      {
+        "title": "澳大利亚统计局：Quantitative and qualitative data",
+        "url": "https://www.abs.gov.au/statistics/understanding-statistics/statistical-terms-and-concepts/quantitative-and-qualitative-data"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "10033",
+    "explanationHtml": "<p>马克思这里所说的是弗兰西斯·培根，强调其经验和实验方法。罗吉尔·培根是中世纪另一位学者，同姓并不意味着可以互换。</p>",
+    "sources": [
+      {
+        "title": "马克思原著：England and Materialist Philosophy",
+        "url": "https://www.marxists.org/archive/marx/works/1845/holy-family/english-materialism.htm"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "10035",
+    "explanationHtml": "<p>测量通过实验获取可归属于某个量的量值，包含数量比较或计数，因此属于定量认识。仅描述颜色、类别等性质，不等同于这种意义上的测量。</p>",
+    "sources": [
+      {
+        "title": "国际计量局《国际计量学词汇》2.1：测量",
+        "url": "https://jcgm.bipm.org/vim/en/2.1.html"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "10037",
+    "explanationHtml": "<p>科学解释需要与可检查的证据相联系，并接受不同证据的检验。权威的身份可以提示专业背景，却不能替代论证和经验材料。</p>",
+    "sources": [
+      {
+        "title": "史密森学会：科学知识基于经验证据",
+        "url": "https://learninglab.si.edu/standards//2227"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "10038",
+    "explanationHtml": "<p>系统的结构说明组成部分如何联系，功能说明它们共同产生什么作用。分析系统时要结合两者，不能只列部件而忽略关系与整体作用。</p>",
+    "sources": [
+      {
+        "title": "NASA《系统工程手册》术语表：System、Architecture",
+        "url": "https://www.nasa.gov/reference/appendix-b-glossary/"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "10039",
+    "explanationHtml": "<p>系统由相互联系的要素组成，各要素共同作用形成整体能力。要素不必全是实体物件，也可以包括人员、软件、过程或规则。</p>",
+    "sources": [
+      {
+        "title": "NASA《系统工程手册》术语表：System、Architecture",
+        "url": "https://www.nasa.gov/reference/appendix-b-glossary/"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "10040",
+    "explanationHtml": "<p>国内、国外属于地域或国家范围分类；按学术领域应区分不同专业或学科主题。教育部门的学术交流统计也按参加者所在国家区分国际会议，不能混用分类标准。</p>",
+    "sources": [
+      {
+        "title": "北京市教育委员会：人文、社会科学学术交流情况统计说明",
+        "url": "https://jw.beijing.gov.cn/kyc/zlxz_15523/202312/P020231211574949025375.pdf"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "10041",
+    "explanationHtml": "<p>算术着重数及其基本运算；代数进一步用字母表示变量，研究表达式、方程和一般关系。题干用有理数四则运算概括代数的基本内容，范围过窄。</p>",
+    "sources": [
+      {
+        "title": "莱斯大学OpenStax：Use the Language of Algebra",
+        "url": "https://openstax.org/books/elementary-algebra/pages/1-2-use-the-language-of-algebra"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "10042",
+    "explanationHtml": "<p>测量依赖适当的程序、经过校准的测量系统以及测量条件。方法选择不当或仪器性能达不到要求，都可能影响结果有效性，不能说与二者无关。</p>",
+    "sources": [
+      {
+        "title": "国际计量局《国际计量学词汇》2.1：测量",
+        "url": "https://jcgm.bipm.org/vim/en/2.1.html"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "10043",
+    "explanationHtml": "<p>科学素质不仅是掌握知识，还包含运用知识和方法分析判断、解决问题。培养应用能力需要思考、判断与创新，不能把这些能力割裂开来。</p>",
+    "sources": [
+      {
+        "title": "国务院：《全民科学素质行动规划纲要（2021—2035年）》",
+        "url": "https://www.beijing.gov.cn/zhengce/gwywj/202106/t20210625_2422539.html"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "10044",
+    "explanationHtml": "<p>文献调查不止于收集资料，还要分析、比较和综合其内容，提取与研究问题相关的信息。大学图书馆的文献综述指南也将分析与综合列为关键步骤。</p>",
+    "sources": [
+      {
+        "title": "杜克大学图书馆：Synthesize your findings",
+        "url": "https://guides.library.duke.edu/litreviews/synthesize"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "10045",
+    "explanationHtml": "<p>实验设计还需考虑随机化、重复和对无关变异的控制，不能把对照当作唯一原则。设置对照回答比较问题，随机化和重复则帮助控制偏差与估计误差。</p>",
+    "sources": [
+      {
+        "title": "美国陆军工程兵团：Experimental design",
+        "url": "https://www.spn.usace.army.mil/Portals/68/docs/Dredging/guidance/trel03-1.pdf"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "10046",
+    "explanationHtml": "<p>耗散结构理论由普里高津发展，讨论远离平衡的开放系统如何形成有序结构。它不能归于托姆的《结构稳定性与形态发生》，两种理论不可混淆。</p>",
+    "sources": [
+      {
+        "title": "诺贝尔奖官网：Ilya Prigogine — Facts",
+        "url": "https://www.nobelprize.org/prizes/chemistry/1977/prigogine/facts/"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "10048",
+    "explanationHtml": "<p>古希腊亚里士多德已系统研究三段论和演绎推理，年代远早于伽利略。因此伽利略虽对近代科学方法贡献重大，也不能称为率先使用抽象和演绎的人。</p>",
+    "sources": [
+      {
+        "title": "斯坦福哲学百科：Aristotle's Logic",
+        "url": "https://plato.stanford.edu/entries/aristotle-logic/index.html"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "10049",
+    "explanationHtml": "<p>公理化方法把少数基本概念和公理作为起点，再按逻辑规则推出命题。欧几里得《几何原本》从定义、公设和公理展开证明，是典型例子。</p>",
+    "sources": [
+      {
+        "title": "克拉克大学：《欧几里得几何原本》第一卷",
+        "url": "https://mathcs.clarku.edu/~djoyce/elements/bookI/bookI.html"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "10052",
+    "explanationHtml": "<p>《科学家在社会中的角色》的作者是约瑟夫·本－戴维。该书从社会制度与角色的角度考察科学家的职业形成及科学发展的条件。</p>",
+    "sources": [
+      {
+        "title": "哈佛大学知识库：Steven Shapin，The Man of Science",
+        "url": "https://dash.harvard.edu/bitstreams/7312037c-7355-6bd4-e053-0100007fdf3b/download"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "10054",
+    "explanationHtml": "<p>默顿列出的四项规范是普遍主义、公有主义、无私利性和有组织的怀疑。自由主义不在这组规范之中，题目不能凭日常语义选择。</p>",
+    "sources": [
+      {
+        "title": "默顿原文：The Normative Structure of Science（科罗拉多大学藏）",
+        "url": "https://sciencepolicy.colorado.edu/students/envs_5110/merton_sociology_science.pdf"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "10055",
+    "explanationHtml": "<p>批判理性主义以猜想和反驳解释知识增长：提出问题、尝试解释并排除错误，而非仅累积支持事例。</p>",
+    "sources": [
+      {
+        "title": "斯坦福哲学百科：Karl Popper",
+        "url": "https://plato.stanford.edu/entries/popper/"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "10056",
+    "explanationHtml": "<p>原站把“分层与马太效应有内存关系”判错；若“内存”指“内在”，默顿却指出奖励与声望会累积，存在争议。</p>",
+    "sources": [
+      {
+        "title": "默顿原文：The Matthew Effect in Science（宾夕法尼亚大学藏）",
+        "url": "https://garfield.library.upenn.edu/merton/matthew1.pdf"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "10057",
+    "explanationHtml": "<p>基础研究主要为理解现象及其基本原理而开展，通常不直接指向某项特定用途。因此它对经济的贡献往往通过后续应用和技术发展间接体现。</p>",
+    "sources": [
+      {
+        "title": "OECD：《弗拉斯卡蒂手册2015》2.25–2.27",
+        "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2015/10/frascati-manual-2015_g1g57dcb/9789264239012-en.pdf"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "10058",
+    "explanationHtml": "<p>科学奖励的社会学模型强调：成果传播可换取同行承认。这是制度激励，不代表每位科学家只有一种动机。</p>",
+    "sources": [
+      {
+        "title": "默顿原文：The Matthew Effect in Science（宾夕法尼亚大学藏）",
+        "url": "https://garfield.library.upenn.edu/merton/matthew1.pdf"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "10060",
+    "explanationHtml": "<p>可证伪性要求理论允许某些可能的观察结果与之冲突。能解释一切结果的说法，无法据此检验。</p>",
+    "sources": [
+      {
+        "title": "斯坦福哲学百科：Karl Popper",
+        "url": "https://plato.stanford.edu/entries/popper/"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "10062",
+    "explanationHtml": "<p>哥本哈根学派以玻尔及其研究所为核心，通过开放讨论推进量子理论。海森堡等也有重要贡献，但题目所问的学派领袖是尼尔斯·玻尔。</p>",
+    "sources": [
+      {
+        "title": "哥本哈根大学玻尔研究所：The Copenhagen Interpretation",
+        "url": "https://nbi.ku.dk/english/www/institute/history/the_copenhagen_interpretation"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "10063",
+    "explanationHtml": "<p>原站把“科学体制强调创造性导致优先权之争”判为不正确；默顿却将优先权竞争与制度对原创性的重视相联系，二者冲突，存在争议。</p>",
+    "sources": [
+      {
+        "title": "默顿原文：The Matthew Effect in Science, II（宾夕法尼亚大学藏）",
+        "url": "https://garfield.library.upenn.edu/merton/matthewii.pdf"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "10064",
+    "explanationHtml": "<p>对同行承认的需求是正常制度激励，不能直接等同于越轨原因。过度竞争在特定条件下可能诱发造假或剽窃，但这种可能性不是必然因果关系。</p>",
+    "sources": [
+      {
+        "title": "Harriet Zuckerman：Ownership Rights in Science（宾夕法尼亚大学藏）",
+        "url": "https://garfield.library.upenn.edu/essays/v12p179y1989.pdf"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "10067",
+    "explanationHtml": "<p>较低声望的奖励仍可提供同行认可与激励。承认存在层次，不等于较低层次的奖励毫无意义。</p>",
+    "sources": [
+      {
+        "title": "默顿原文：The Matthew Effect in Science（宾夕法尼亚大学藏）",
+        "url": "https://garfield.library.upenn.edu/merton/matthew1.pdf"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "10069",
+    "explanationHtml": "<p>科学家对研究成果的社会与伦理后果负有责任，也有权公开讨论项目的风险。联合国教科文组织明确承认这些权利与责任，因此不能要求科学家完全不问成果应用。</p>",
+    "sources": [
+      {
+        "title": "联合国教科文组织：《科学和科学研究人员建议书》第16段",
+        "url": "https://www.unesco.org/en/legal-affairs/recommendation-science-and-scientific-researchers"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "10070",
+    "explanationHtml": "<p>在批判理性主义语境中，只为躲避反例、又不增加独立可检验内容的特设假说应被反对。这里并非禁止一切理论修正，而是反对免受检验的辩护。</p>",
+    "sources": [
+      {
+        "title": "斯坦福哲学百科：Prediction versus Accommodation",
+        "url": "https://plato.stanford.edu/entries/prediction-accommodation/"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "10071",
+    "explanationHtml": "<p>奥本海默领导曼哈顿计划中的洛斯阿拉莫斯武器研究与设计工作。需区分角色：他是重要科学负责人，整个计划的军事与行政领导者是格罗夫斯。</p>",
+    "sources": [
+      {
+        "title": "美国国家公园管理局：Manhattan Project Scientists — J. Robert Oppenheimer",
+        "url": "https://www.nps.gov/people/manhattan-project-scientists-j-robert-oppenheimer.htm"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "10072",
+    "explanationHtml": "<p>邓稼先是我国首颗原子弹、氢弹理论设计负责人和核武器研制的主要奠基者之一，因而本题选邓稼先。“原子弹之父”是赞誉，不能抹去团队贡献。</p>",
+    "sources": [
+      {
+        "title": "清华大学校史馆：中国原子弹之父邓稼先",
+        "url": "https://xsg.tsinghua.edu.cn/info/1004/1657.htm"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "10074",
+    "explanationHtml": "<p>怀特将文化区分为技术、社会和思想意识三个相互联系的子系统。价值观属于文化内容，但“价值系统”不是这里单独列出的三项名称之一。</p>",
+    "sources": [
+      {
+        "title": "明尼苏达州立大学穆尔黑德分校：新进化论课程资料",
+        "url": "https://web.mnstate.edu/robertsb/348/ANTH%20348writingassignments%202011_files/Neoevolution%202013.pdf"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "10076",
+    "explanationHtml": "<p>原站答案为“科学证明的有效方法”；若“证明”指必然为真，归纳不能保证从有限事例推出的普遍结论，存在争议。归纳可提供程度不同的支持，不等于演绎证明。</p>",
+    "sources": [
+      {
+        "title": "斯坦福哲学百科：Argument and Argumentation",
+        "url": "https://plato.stanford.edu/entries/argument/"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "10078",
+    "explanationHtml": "<p>科学文化发挥作用，需要把知识内容、研究方法与求实的科学精神结合起来。只记结论而不理解方法，或只讲精神而缺乏知识，都不完整。</p>",
+    "sources": [
+      {
+        "title": "国务院：《全民科学素质行动规划纲要（2021—2035年）》",
+        "url": "https://www.beijing.gov.cn/zhengce/gwywj/202106/t20210625_2422539.html"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "10080",
+    "explanationHtml": "<p>新组合观点强调把资源、技术和组织等要素以新方式用于生产。技术发明本身不一定形成创新，关键还在于将新组合实际引入经济活动。</p>",
+    "sources": [
+      {
+        "title": "波恩大学：Schumpeter in Bonn（引用《经济发展理论》1934年版第66页）",
+        "url": "https://www.wiwi.uni-bonn.de/hintermaier/Schumpeter.pdf"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "10082",
+    "explanationHtml": "<p>普赖斯依据科学文献等总体指标概括一定历史时期的指数增长。它不是每个学科、每个国家都必然服从的定律，因此选有时间和总体范围限制的表述。</p>",
+    "sources": [
+      {
+        "title": "NASA科学史著作：关于大科学及普赖斯增长研究",
+        "url": "https://ntrs.nasa.gov/api/citations/19960045321/downloads/19960045321.pdf"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "10083",
+    "explanationHtml": "<p>指数增长是对历史统计资料的经验概括，可用于一定条件下的趋势估计。普赖斯也知道增长不可能无限持续，所以“可以外推”不等于任何时期都必然适用。</p>",
+    "sources": [
+      {
+        "title": "美国文理科学院：美德大学与科学研究比较报告",
+        "url": "https://www.amacad.org/sites/default/files/publication/downloads/American_German.pdf"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "10084",
+    "explanationHtml": "<p>汤浅关于近现代科学中心转移的经典概括是意大利、英国、法国、德国、美国。它是特定统计口径下的历史叙述，不代表各学科在同一时刻整齐转移。</p>",
+    "sources": [
+      {
+        "title": "阎光才：《城市、科学与大学之间关系及其历史演变》，北京大学教育评论，2021",
+        "url": "https://ccj.pku.edu.cn/Article/DownLoad?id=262700096&type=ArticleFile"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "10086",
+    "explanationHtml": "<p>汤浅以某国在特定时期的科学成果超过全球总量的25%作为中心判据。该比例属于其计量模型的定义，不能当成不依赖资料与指标的自然定律。</p>",
+    "sources": [
+      {
+        "title": "阎光才：《城市、科学与大学之间关系及其历史演变》，北京大学教育评论，2021",
+        "url": "https://ccj.pku.edu.cn/Article/DownLoad?id=262700096&type=ArticleFile"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "10093",
+    "explanationHtml": "<p>诺贝尔奖得主的数据表明，作出重大贡献的年龄会随学科、时期和研究性质变化。因此应选“因学科而异”，不能把某个固定年龄当成所有人的最佳年龄。</p>",
+    "sources": [
+      {
+        "title": "Jones、Weinberg：Age dynamics in scientific creativity，PNAS，2011",
+        "url": "https://www.pnas.org/content/pnas/108/47/18910.full.pdf"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "10094",
+    "explanationHtml": "<p>科学理论要经同行对证据、方法和推理的批评检验。评价不能只依赖提出者的身份；有新的可靠证据时，原有共识也应重新审查。</p>",
+    "sources": [
+      {
+        "title": "美国国家科学院：Principles and Practices That Guide Our Work",
+        "url": "https://www.nationalacademies.org/principles-and-practices-that-guide-our-work"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "10098",
+    "explanationHtml": "<p>利玛窦等传教士译介《几何原本》、天文学著作和世界地图，带来数学、天文与地理知识。这些是早期西学传播的重要内容，勿与后来声光电化的输入混淆。</p>",
+    "sources": [
+      {
+        "title": "中国科学院自然科学史研究所：利玛窦与西方科学在中国的传播",
+        "url": "https://www.ihns.cas.cn/kxcb_/kxjd/202212/t20221206_6567199.html"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "10099",
+    "explanationHtml": "<p>选项对应迪昂的观点：实验同时依赖理论及辅助假设，单次结果不能绝对证明某理论并排除全部其他解释。这不表示历史上不存在重要或具有决定影响的实验。</p>",
+    "sources": [
+      {
+        "title": "斯坦福哲学百科：Pierre Duhem",
+        "url": "https://plato.stanford.edu/entries/duhem/"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "10100",
+    "explanationHtml": "<p>熊彼特的新组合类型包括新产品、新生产方法、新市场、新供给来源及新组织形式。“环境创新”不是这份经典分类中的独立项目；现代环保技术当然仍可创新。</p>",
+    "sources": [
+      {
+        "title": "波恩大学：Schumpeter in Bonn（引用《经济发展理论》1934年版第66页）",
+        "url": "https://www.wiwi.uni-bonn.de/hintermaier/Schumpeter.pdf"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "10102",
+    "explanationHtml": "<p>企业直接联系市场需求、研发投入、生产与成果转化。我国科技进步法明确建立以企业为主体的技术创新体系，这与题目强调企业创新系统的作用相对应。</p>",
+    "sources": [
+      {
+        "title": "《中华人民共和国科学技术进步法》第三十九条（中国科学院转载）",
+        "url": "https://www.cas.cn/zcjd/202204/t20220407_4830811.shtml"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "10103",
+    "explanationHtml": "<p>观察需要借助感官、仪器及背景假设，这些环节都可能出现错误。因此观察具有可谬性，应允许复核和修正。</p>",
+    "sources": [
+      {
+        "title": "斯坦福哲学百科：Theory and Observation in Science",
+        "url": "https://plato.stanford.edu/entries/science-theory-observation/"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "10104",
+    "explanationHtml": "<p>严复翻译《天演论》等著作，把进化思想与社会、政治和经济论述引入近代中国。在本题给定的比较语境中，他的突出贡献在于思想与理论传播。</p>",
+    "sources": [
+      {
+        "title": "中国国家博物馆：严复译赫胥黎《天演论》手稿",
+        "url": "https://www.chnmuseum.cn/zp/zpml/gmww/202112/t20211214_253190.shtml"
+      },
+      {
+        "title": "福建省图书馆：严复著译要目",
+        "url": "https://www.fjlib.net/zt/fxmr/mrcl/yf/202010/t20201026_445696.htm"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "10105",
+    "explanationHtml": "<p>科学知识必须对新证据开放，必要时可以修正或被取代。可谬并不等于不可靠：经过多次检验的结论仍是行动依据，只是不被当作永不可能出错。</p>",
+    "sources": [
+      {
+        "title": "美国国家科学院《科学证据参考手册》：How Science Works",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK621586/"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "10106",
+    "explanationHtml": "<p>理论和模型应在相应条件及尺度内使用。例如牛顿力学在许多工程问题中仍有效，但并非所有情况下都足够。讨论理论时必须注意适用范围。</p>",
+    "sources": [
+      {
+        "title": "美国国家科学院《科学证据参考手册》：How Science Works",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK621586/"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "10108",
+    "explanationHtml": "<p>观察受注意方向、经验和理论背景影响。即使身体正常、环境相同，不同观察者也可能注意到不同特征，作出不同观察报告。</p>",
+    "sources": [
+      {
+        "title": "斯坦福哲学百科：Theory and Observation in Science",
+        "url": "https://plato.stanford.edu/entries/science-theory-observation/"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "10109",
+    "explanationHtml": "<p>原站答案为“排除一切先入之见”；资料指出观察不可避免地含有理论和背景假设，完全排除并不现实，存在争议。客观性更需要公开方法、重复检验与相互批评。</p>",
+    "sources": [
+      {
+        "title": "斯坦福哲学百科：Theory and Observation in Science",
+        "url": "https://plato.stanford.edu/entries/science-theory-observation/"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "10110",
+    "explanationHtml": "<p>按波普尔程序，先查理论的一致性、经验性质及与旧理论的关系，再做经验检验；前者属先验评价。</p>",
+    "sources": [
+      {
+        "title": "斯坦福哲学百科：Karl Popper",
+        "url": "https://plato.stanford.edu/entries/popper/"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "10112",
+    "explanationHtml": "<p>逻辑一致性评价检查理论内部是否自相矛盾。若同时推出互相否定的命题，理论就不能成立。</p>",
+    "sources": [
+      {
+        "title": "斯坦福哲学百科：Karl Popper",
+        "url": "https://plato.stanford.edu/entries/popper/"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "10113",
+    "explanationHtml": "<p>“科学始于问题”是波普尔的观点：先针对问题提出解释，再选择观察来检验，并非所有流派的共识。</p>",
+    "sources": [
+      {
+        "title": "斯坦福哲学百科：Karl Popper",
+        "url": "https://plato.stanford.edu/entries/popper/"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "10114",
+    "explanationHtml": "<p>理论修正应产生可独立检验的新内容，而不是只增加事后解释现有反例的特设假定。避免降低可检验性，是批判理性主义的要求。</p>",
+    "sources": [
+      {
+        "title": "斯坦福哲学百科：Prediction versus Accommodation",
+        "url": "https://plato.stanford.edu/entries/prediction-accommodation/"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "10116",
+    "explanationHtml": "<p>科学共同体通过共同的研究问题、理论、方法和评价标准联系起来，并不限于同一行政机构。中科院是具体组织，不能等同于科学共同体的实质。</p>",
+    "sources": [
+      {
+        "title": "斯坦福哲学百科：Thomas Kuhn",
+        "url": "https://plato.stanford.edu/entries/thomas-kuhn/"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "10117",
+    "explanationHtml": "<p>库恩的代表作是《科学革命的结构》，初版出版于1962年。该书以常规科学、范式及科学革命等概念分析科学发展的历史变化。</p>",
+    "sources": [
+      {
+        "title": "芝加哥大学出版社：The Structure of Scientific Revolutions",
+        "url": "https://press.uchicago.edu/ucp/books/book/chicago/S/bo13179781.html"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "10119",
+    "explanationHtml": "<p>马太效应可能使同等贡献因名望不同而得到不等承认，这种偏差不能简单说成符合按贡献奖励的宗旨。</p>",
+    "sources": [
+      {
+        "title": "默顿原文：The Matthew Effect in Science（宾夕法尼亚大学藏）",
+        "url": "https://garfield.library.upenn.edu/merton/matthew1.pdf"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "10120",
+    "explanationHtml": "<p>原站将有关奖励系统的选项判为不正确；但另一选项“科学道德无法对科学进行内部控制”也与规范内化、约束行为的研究不符，存在争议，单选题设置需要核对。</p>",
+    "sources": [
+      {
+        "title": "Anderson等：Extending the Mertonian Norms，2010",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2995462/"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "10121",
+    "explanationHtml": "<p>拉法格在回忆马克思的文章中记述，马克思认为科学充分发展有赖于运用数学。本题考查这句话的归属，不能把它理解为所有学科都只能采用数学方法。</p>",
+    "sources": [
+      {
+        "title": "拉法格原文：Reminiscences of Marx",
+        "url": "https://www.marxists.org/archive/lafargue/1890/xx/marx.htm"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "10122",
+    "explanationHtml": "<p>科学计量学对科学活动、文献传播和科技信息使用进行数量研究。常用对象包括论文产出、引文和合作关系，题目对应的学科名称是科学计量学。</p>",
+    "sources": [
+      {
+        "title": "Springer Nature：《Scientometrics》期刊宗旨与范围",
+        "url": "https://link.springer.com/journal/11192/aims-and-scope"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "10124",
+    "explanationHtml": "<p>普赖斯利用科学文献等统计指标研究科学增长，提出科学活动大约每15年翻倍的历史概括。这是特定数据范围内的经验规律，不能无限外推。</p>",
+    "sources": [
+      {
+        "title": "NASA科学史著作：关于大科学及普赖斯增长研究",
+        "url": "https://ntrs.nasa.gov/api/citations/19960045321/downloads/19960045321.pdf"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "10125",
+    "explanationHtml": "<p>加菲尔德于1955年提出将引文索引用于科学文献检索，随后推动科学引文索引的建立。题目所指是现代科学引文索引的创立者。</p>",
+    "sources": [
+      {
+        "title": "科睿唯安：History of ISI",
+        "url": "https://clarivate.com/academia-government/the-institute-for-scientific-information/history/"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "10126",
+    "explanationHtml": "<p>科睿唯安记录，ISI于1964年推出首部《科学引文索引》。应区分1955年提出科学引文索引概念，与1964年正式推出SCI。</p>",
+    "sources": [
+      {
+        "title": "科睿唯安：History of ISI",
+        "url": "https://clarivate.com/academia-government/the-institute-for-scientific-information/history/"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "10127",
+    "explanationHtml": "<p>原站所选“前2年内”符合通常统计窗口，但题干把比值写反，存在争议。影响因子应为当年对前两年相关文献的引用次数，除以前两年的可引文献数量。</p>",
+    "sources": [
+      {
+        "title": "科睿唯安Web of Science帮助：Journal Impact Factor",
+        "url": "https://webofscience.help.clarivate.com/en-us/Content/wos-core-collection/wos-full-record.htm"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "questionId": "10128",
+    "explanationHtml": "<p>贝尔纳在《历史上的科学》中已有科学活动中心的历史描述；汤浅光朝后来用成果比例等指标作定量分析。题目区分的是思想起源与计量化研究。</p>",
+    "sources": [
+      {
+        "title": "中国科学报专家访谈：世界科学活动中心思想与汤浅研究（CERNET转载）",
+        "url": "https://www.edu.cn/zi_xun_1170/20120827/t20120827_834061.shtml"
+      }
+    ],
+    "verifiedAt": "2026-10-29"
+  }
+]
