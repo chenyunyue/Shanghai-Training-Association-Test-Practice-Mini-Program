@@ -139,7 +139,7 @@ export function ExamPanel({ bank, active, onSubmitted, onRestore, onPractice }: 
 
   return <section className="exam-panel" hidden={!active} aria-label="模拟测试">
     {loading ? <div className="empty-state" role="status"><RefreshCw className="spinning" /><h2>正在读取试卷</h2></div> : !session || setup ? <>
-      <div className="exam-intro"><span className="eyebrow">模拟测试</span><h1>练一场，看看掌握了多少。</h1><p>每场随机 100 题 · 限时 60 分钟 · 90 分及格</p><p className="muted">交卷后统一查看答案与解析，错题自动加入错题本。</p><p className="muted">安卓可在浏览器菜单选择“安装应用”或“添加到主屏幕”，具体名称以浏览器为准。</p></div>
+      <div className="exam-intro"><span className="eyebrow">模拟测试</span><h1>练一场，看看掌握了多少。</h1><p>每场随机 100 题 · 限时 60 分钟 · 90 分及格</p><p className="muted">交卷后统一查看答案与解析，错题自动加入错题本。</p><p className="muted">iPhone Safari：分享 → 添加到主屏幕；Mac Safari（macOS 14+）：文件 → 添加到程序坞；安卓：浏览器菜单 → 安装应用或添加到主屏幕。</p></div>
       {error && <p className="inline-error" role="alert">{error}</p>}
       <div className="exam-subjects">{SUBJECTS.map(subject => {
         const count = bank ? getSubjectQuestions(bank, subject.id).length : 0;

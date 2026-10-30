@@ -101,3 +101,12 @@ D1 每条作答插入语句最多 10 行，共 60 个绑定参数，低于 100 �
 `app/layout.tsx` 改为显式输出唯一的 `<link rel="manifest" href="/manifest.webmanifest" crossorigin="use-credentials">`，删除原 metadata.manifest，避免重复链接。这符合需要认证的清单即使同源也必须携带凭据的浏览器要求：[Google 官方说明](https://web.dev/articles/add-manifest#add_the_web_app_manifest_to_your_pages)。
 
 修改后的 `npx tsc --noEmit` 通过。认证 HTTP 检查不能替代手机浏览器中的登录 Cookie 请求或 WebAPK 安装实测；安卓安装是否成功仍待用户更新页面后确认。本次修改不涉及题库、作答记录和访问权限。
+
+## 2026-10-30：Apple Safari 兼容改动核验
+
+- 已将客户端构建目标显式设为 Safari/iOS 15.4，并移除实际页面未使用的 Tailwind、动画和 shadcn 样式入口。生产 CSS 从 133,917 字节降到 17,425 字节；在该 CSS 中，`@property`、`oklch(`、`color-mix(` 的出现次数分别从 65/8/14 变为 0/0/0。这只说明这组构建产物不再带入相应样式，不能证明完整运行时兼容 iOS 15.4。
+- 首页增加 Apple 主屏幕图标及独立网页模式元信息；已用本地生产 Worker 请求确认首页返回 200，且 HTML 中包含这些信息，并保留私有安装清单所需的 `crossorigin="use-credentials"`。
+- `node --test lib/exam-session.test.mjs lib/wrong-book.test.mjs lib/offline-events.test.mjs tools/normalize-question-bank.test.mjs`：34 项通过；`node --experimental-vm-modules --test tools/export-all-modules-console.test.mjs`：23 项通过。Node 对后者的 VM Modules 实验功能发出提示，测试本身无失败。`npx tsc --noEmit --incremental false`、`npm run build`、`git diff --check` 均退出 0。
+- Windows Chrome 本地开发预览在桌面与 390×844 视口显示七模块、1224 题、练习题卡和三科模拟测试入口；苹果与安卓安装说明在模拟测试页可见。本轮未在该浏览器会话作答，也未重复离线或双端同步测试。该会话未登录本地测试身份，`/api/sync` 返回 401；Chrome 扩展向页面加入属性，引发一次 hydration mismatch 提示，未观察到页面功能中断。
+
+仍待真实 macOS Safari、iOS 15.4 Safari 与 iPhone 主屏幕模式验收：私有登录、题库首次下载、答题、模拟测试、刷新恢复、离线重新打开和联网同步。Safari 网页与新安装的主屏幕/程序坞网页应用不共享 IndexedDB；安装版须单独联网完成首次登录和下载。构建目标与 Windows 浏览器视口检查不能替代这些设备验收。

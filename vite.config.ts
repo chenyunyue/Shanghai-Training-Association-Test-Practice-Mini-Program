@@ -44,6 +44,7 @@ export default defineConfig(async ({ command }) => {
   const { cloudflare } = await import("@cloudflare/vite-plugin");
 
   return {
+    build: { target: ["chrome111", "edge111", "firefox114", "safari15.4", "ios15.4"] },
     server: {
       ...(managedLinux
         ? { host: "0.0.0.0", allowedHosts: ["terminal.local"] }

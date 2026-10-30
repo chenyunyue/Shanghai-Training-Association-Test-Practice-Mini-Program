@@ -21,8 +21,11 @@ export default function RootLayout({
     <html lang="zh-CN">
       <head>
         <link rel="manifest" href="/manifest.webmanifest" crossOrigin="use-credentials" />
+        <link rel="apple-touch-icon" href="/icons/app-192.png" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-title" content="个人练习室" />
       </head>
-      <body className="antialiased"><ServiceWorkerRegistration />{children}</body>
+      <body><ServiceWorkerRegistration />{children}</body>
     </html>
   );
 }
