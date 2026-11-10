@@ -18,6 +18,7 @@ export type ExamSession = {
   responses: Record<string, string[]>;
   eventIds: Record<string, string>;
   submittedAt?: string;
+  scoring?: "weighted-150";
 };
 
 export function getSubjectQuestions(bank: QuestionBank, subjectId: string): Question[] {
@@ -28,12 +29,17 @@ export function getSubjectQuestions(bank: QuestionBank, subjectId: string): Ques
 
 export function createExamSession(bank: QuestionBank, subjectId: string, now = Date.now()): ExamSession {
   const pool = getSubjectQuestions(bank, subjectId);
-  if (pool.length < 100) throw new Error(`该科目当前只有 ${pool.length} 道题，需要至少 100 道题才能开始测试。`);
-  for (let index = pool.length - 1; index > 0; index--) {
-    const target = Math.floor(Math.random() * (index + 1));
-    [pool[index], pool[target]] = [pool[target], pool[index]];
+  const questions: Question[] = [];
+  for (const [type, count] of [["judge", 25], ["single", 75], ["multiple", 50]] as const) {
+    const candidates = pool.filter(question => question.type === type);
+    if (candidates.length < count) throw new Error(`该科目${type === "judge" ? "判断题" : type === "single" ? "单选题" : "多选题"}不足，需要 ${count} 道，当前只有 ${candidates.length} 道。`);
+    for (let index = candidates.length - 1; index > 0; index--) {
+      const target = Math.floor(Math.random() * (index + 1));
+      [candidates[index], candidates[target]] = [candidates[target], candidates[index]];
+    }
+    questions.push(...candidates.slice(0, count));
   }
-  const questions = structuredClone(pool.slice(0, 100));
+  const snapshot = structuredClone(questions);
   return {
     id: crypto.randomUUID(),
     subjectId,
@@ -41,9 +47,10 @@ export function createExamSession(bank: QuestionBank, subjectId: string, now = D
     bankVersion: bank.version,
     startedAt: new Date(now).toISOString(),
     deadlineAt: new Date(now + 60 * 60 * 1000).toISOString(),
-    questions,
+    questions: snapshot,
+    scoring: "weighted-150",
     responses: {},
-    eventIds: Object.fromEntries(questions.map(question => [question.id, crypto.randomUUID()])),
+    eventIds: Object.fromEntries(snapshot.map(question => [question.id, crypto.randomUUID()])),
   };
 }
 
@@ -75,9 +82,12 @@ export function gradeExam(session: ExamSession): {
     return { id: session.eventIds[question.id], questionId: question.id, response, correct, answeredAt: submittedAt };
   });
   const correctCount = events.filter(event => event.correct).length;
+  const score = session.scoring === "weighted-150"
+    ? events.reduce((sum, event, index) => sum + (event.correct ? (session.questions[index].type === "multiple" ? 1 : 0.5) : 0), 0)
+    : correctCount;
   return {
-    score: correctCount,
-    passed: correctCount >= 90,
+    score,
+    passed: score >= 90,
     correctCount,
     wrongCount: events.length - correctCount,
     unansweredCount: events.filter(event => !event.response.some(value => value.trim() !== "")).length,
